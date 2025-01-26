@@ -1,0 +1,1412 @@
+{
+    "bozo": false,
+    "entries": [
+        {
+            "id": "yt:video:tejanUI2gwk",
+            "guidislink": true,
+            "link": "https://www.youtube.com/watch?v=tejanUI2gwk",
+            "yt_videoid": "tejanUI2gwk",
+            "yt_channelid": "UCM3YAEDu6W7JmQc0kb-CNtw",
+            "title": "Unlocking the Secrets_ Essential Skills for Analyzing Forensic Data  #cybersecurity #podcast",
+            "title_detail": {
+                "type": "text/plain",
+                "language": null,
+                "base": "https://www.youtube.com/feeds/videos.xml?channel_id=UCM3YAEDu6W7JmQc0kb-CNtw",
+                "value": "Unlocking the Secrets_ Essential Skills for Analyzing Forensic Data  #cybersecurity #podcast"
+            },
+            "links": [
+                {
+                    "rel": "alternate",
+                    "href": "https://www.youtube.com/watch?v=tejanUI2gwk",
+                    "type": "text/html"
+                }
+            ],
+            "authors": [
+                {
+                    "name": "Breaking Into Cybersecurity",
+                    "href": "https://www.youtube.com/channel/UCM3YAEDu6W7JmQc0kb-CNtw"
+                }
+            ],
+            "author_detail": {
+                "name": "Breaking Into Cybersecurity",
+                "href": "https://www.youtube.com/channel/UCM3YAEDu6W7JmQc0kb-CNtw"
+            },
+            "href": "",
+            "author": "Breaking Into Cybersecurity",
+            "published": "2024-12-10T20:28:29+00:00",
+            "published_parsed": [
+                2024,
+                12,
+                10,
+                20,
+                28,
+                29,
+                1,
+                345,
+                0
+            ],
+            "updated": "2025-01-10T23:44:01+00:00",
+            "updated_parsed": [
+                2025,
+                1,
+                10,
+                23,
+                44,
+                1,
+                4,
+                10,
+                0
+            ],
+            "media_content": [
+                {
+                    "url": "https://www.youtube.com/v/tejanUI2gwk?version=3",
+                    "type": "application/x-shockwave-flash",
+                    "width": "640",
+                    "height": "390"
+                }
+            ],
+            "media_thumbnail": [
+                {
+                    "url": "https://i1.ytimg.com/vi/tejanUI2gwk/hqdefault.jpg",
+                    "width": "480",
+                    "height": "360"
+                }
+            ],
+            "summary": "Sponsored by CPF Coaching LLC - http://cpf-coaching.com\n\nThe Breaking into Cybersecurity: It\u2019s a conversation about what they did before, why did they pivot into cyber, what the process was they went through Breaking Into Cybersecurity, how they keep up, and advice/tips/tricks along the way.\n\nThe Breaking into Cybersecurity Leadership Series is an additional series focused on cybersecurity leadership and hearing directly from different leaders in cybersecurity (high and low) on what it takes to be a successful leader. We focus on the skills and competencies associated with cybersecurity leadership and tips/tricks/advice from cybersecurity leaders.\n\n\nThis podcast relies on listener support, donate or become a member for early access to content:\nhttps://breaking-into-cybersecurity.captivate.fm/support\n\n#cybersecurity #breakingintocybersecurity  #informationsecurity  #AdvanceYourCyberCareer \n\nCheck out our books: \n\nDevelop Your Cybersecurity Career Path: How to Break into Cybersecurity at Any Level: https://amzn.to/3443AUI\nHack the Cybersecurity Interview: A complete interview preparation guide for jumpstarting your cybersecurity career https://www.amazon.com/dp/1801816638/",
+            "summary_detail": {
+                "type": "text/html",
+                "language": null,
+                "base": "https://www.youtube.com/feeds/videos.xml?channel_id=UCM3YAEDu6W7JmQc0kb-CNtw",
+                "value": "Sponsored by CPF Coaching LLC - http://cpf-coaching.com\n\nThe Breaking into Cybersecurity: It\u2019s a conversation about what they did before, why did they pivot into cyber, what the process was they went through Breaking Into Cybersecurity, how they keep up, and advice/tips/tricks along the way.\n\nThe Breaking into Cybersecurity Leadership Series is an additional series focused on cybersecurity leadership and hearing directly from different leaders in cybersecurity (high and low) on what it takes to be a successful leader. We focus on the skills and competencies associated with cybersecurity leadership and tips/tricks/advice from cybersecurity leaders.\n\n\nThis podcast relies on listener support, donate or become a member for early access to content:\nhttps://breaking-into-cybersecurity.captivate.fm/support\n\n#cybersecurity #breakingintocybersecurity  #informationsecurity  #AdvanceYourCyberCareer \n\nCheck out our books: \n\nDevelop Your Cybersecurity Career Path: How to Break into Cybersecurity at Any Level: https://amzn.to/3443AUI\nHack the Cybersecurity Interview: A complete interview preparation guide for jumpstarting your cybersecurity career https://www.amazon.com/dp/1801816638/"
+            },
+            "media_starrating": {
+                "count": "0",
+                "average": "0.00",
+                "min": "1",
+                "max": "5"
+            },
+            "media_statistics": {
+                "views": "10"
+            },
+            "media_community": ""
+        },
+        {
+            "id": "yt:video:69r_qKf-Los",
+            "guidislink": true,
+            "link": "https://www.youtube.com/watch?v=69r_qKf-Los",
+            "yt_videoid": "69r_qKf-Los",
+            "yt_channelid": "UCM3YAEDu6W7JmQc0kb-CNtw",
+            "title": "Transitioning from Support to DFIR_ Expert Tips for Success!",
+            "title_detail": {
+                "type": "text/plain",
+                "language": null,
+                "base": "https://www.youtube.com/feeds/videos.xml?channel_id=UCM3YAEDu6W7JmQc0kb-CNtw",
+                "value": "Transitioning from Support to DFIR_ Expert Tips for Success!"
+            },
+            "links": [
+                {
+                    "rel": "alternate",
+                    "href": "https://www.youtube.com/watch?v=69r_qKf-Los",
+                    "type": "text/html"
+                }
+            ],
+            "authors": [
+                {
+                    "name": "Breaking Into Cybersecurity",
+                    "href": "https://www.youtube.com/channel/UCM3YAEDu6W7JmQc0kb-CNtw"
+                }
+            ],
+            "author_detail": {
+                "name": "Breaking Into Cybersecurity",
+                "href": "https://www.youtube.com/channel/UCM3YAEDu6W7JmQc0kb-CNtw"
+            },
+            "href": "",
+            "author": "Breaking Into Cybersecurity",
+            "published": "2024-12-10T20:27:55+00:00",
+            "published_parsed": [
+                2024,
+                12,
+                10,
+                20,
+                27,
+                55,
+                1,
+                345,
+                0
+            ],
+            "updated": "2025-01-12T22:21:47+00:00",
+            "updated_parsed": [
+                2025,
+                1,
+                12,
+                22,
+                21,
+                47,
+                6,
+                12,
+                0
+            ],
+            "media_content": [
+                {
+                    "url": "https://www.youtube.com/v/69r_qKf-Los?version=3",
+                    "type": "application/x-shockwave-flash",
+                    "width": "640",
+                    "height": "390"
+                }
+            ],
+            "media_thumbnail": [
+                {
+                    "url": "https://i3.ytimg.com/vi/69r_qKf-Los/hqdefault.jpg",
+                    "width": "480",
+                    "height": "360"
+                }
+            ],
+            "summary": "Sponsored by CPF Coaching LLC - http://cpf-coaching.com\n\nThe Breaking into Cybersecurity: It\u2019s a conversation about what they did before, why did they pivot into cyber, what the process was they went through Breaking Into Cybersecurity, how they keep up, and advice/tips/tricks along the way.\n\nThe Breaking into Cybersecurity Leadership Series is an additional series focused on cybersecurity leadership and hearing directly from different leaders in cybersecurity (high and low) on what it takes to be a successful leader. We focus on the skills and competencies associated with cybersecurity leadership and tips/tricks/advice from cybersecurity leaders.\n\n\nThis podcast relies on listener support, donate or become a member for early access to content:\nhttps://breaking-into-cybersecurity.captivate.fm/support\n\n#cybersecurity #breakingintocybersecurity  #informationsecurity  #AdvanceYourCyberCareer \n\nCheck out our books: \n\nDevelop Your Cybersecurity Career Path: How to Break into Cybersecurity at Any Level: https://amzn.to/3443AUI\nHack the Cybersecurity Interview: A complete interview preparation guide for jumpstarting your cybersecurity career https://www.amazon.com/dp/1801816638/",
+            "summary_detail": {
+                "type": "text/html",
+                "language": null,
+                "base": "https://www.youtube.com/feeds/videos.xml?channel_id=UCM3YAEDu6W7JmQc0kb-CNtw",
+                "value": "Sponsored by CPF Coaching LLC - http://cpf-coaching.com\n\nThe Breaking into Cybersecurity: It\u2019s a conversation about what they did before, why did they pivot into cyber, what the process was they went through Breaking Into Cybersecurity, how they keep up, and advice/tips/tricks along the way.\n\nThe Breaking into Cybersecurity Leadership Series is an additional series focused on cybersecurity leadership and hearing directly from different leaders in cybersecurity (high and low) on what it takes to be a successful leader. We focus on the skills and competencies associated with cybersecurity leadership and tips/tricks/advice from cybersecurity leaders.\n\n\nThis podcast relies on listener support, donate or become a member for early access to content:\nhttps://breaking-into-cybersecurity.captivate.fm/support\n\n#cybersecurity #breakingintocybersecurity  #informationsecurity  #AdvanceYourCyberCareer \n\nCheck out our books: \n\nDevelop Your Cybersecurity Career Path: How to Break into Cybersecurity at Any Level: https://amzn.to/3443AUI\nHack the Cybersecurity Interview: A complete interview preparation guide for jumpstarting your cybersecurity career https://www.amazon.com/dp/1801816638/"
+            },
+            "media_starrating": {
+                "count": "0",
+                "average": "0.00",
+                "min": "1",
+                "max": "5"
+            },
+            "media_statistics": {
+                "views": "6"
+            },
+            "media_community": ""
+        },
+        {
+            "id": "yt:video:7Ah6A_0Zpao",
+            "guidislink": true,
+            "link": "https://www.youtube.com/watch?v=7Ah6A_0Zpao",
+            "yt_videoid": "7Ah6A_0Zpao",
+            "yt_channelid": "UCM3YAEDu6W7JmQc0kb-CNtw",
+            "title": "The Key Non-Technical Skill You Need for File System Forensics  #cybersecurity #podcast",
+            "title_detail": {
+                "type": "text/plain",
+                "language": null,
+                "base": "https://www.youtube.com/feeds/videos.xml?channel_id=UCM3YAEDu6W7JmQc0kb-CNtw",
+                "value": "The Key Non-Technical Skill You Need for File System Forensics  #cybersecurity #podcast"
+            },
+            "links": [
+                {
+                    "rel": "alternate",
+                    "href": "https://www.youtube.com/watch?v=7Ah6A_0Zpao",
+                    "type": "text/html"
+                }
+            ],
+            "authors": [
+                {
+                    "name": "Breaking Into Cybersecurity",
+                    "href": "https://www.youtube.com/channel/UCM3YAEDu6W7JmQc0kb-CNtw"
+                }
+            ],
+            "author_detail": {
+                "name": "Breaking Into Cybersecurity",
+                "href": "https://www.youtube.com/channel/UCM3YAEDu6W7JmQc0kb-CNtw"
+            },
+            "href": "",
+            "author": "Breaking Into Cybersecurity",
+            "published": "2024-12-10T20:27:30+00:00",
+            "published_parsed": [
+                2024,
+                12,
+                10,
+                20,
+                27,
+                30,
+                1,
+                345,
+                0
+            ],
+            "updated": "2025-01-12T21:53:15+00:00",
+            "updated_parsed": [
+                2025,
+                1,
+                12,
+                21,
+                53,
+                15,
+                6,
+                12,
+                0
+            ],
+            "media_content": [
+                {
+                    "url": "https://www.youtube.com/v/7Ah6A_0Zpao?version=3",
+                    "type": "application/x-shockwave-flash",
+                    "width": "640",
+                    "height": "390"
+                }
+            ],
+            "media_thumbnail": [
+                {
+                    "url": "https://i4.ytimg.com/vi/7Ah6A_0Zpao/hqdefault.jpg",
+                    "width": "480",
+                    "height": "360"
+                }
+            ],
+            "summary": "Sponsored by CPF Coaching LLC - http://cpf-coaching.com\n\nThe Breaking into Cybersecurity: It\u2019s a conversation about what they did before, why did they pivot into cyber, what the process was they went through Breaking Into Cybersecurity, how they keep up, and advice/tips/tricks along the way.\n\nThe Breaking into Cybersecurity Leadership Series is an additional series focused on cybersecurity leadership and hearing directly from different leaders in cybersecurity (high and low) on what it takes to be a successful leader. We focus on the skills and competencies associated with cybersecurity leadership and tips/tricks/advice from cybersecurity leaders.\n\n\nThis podcast relies on listener support, donate or become a member for early access to content:\nhttps://breaking-into-cybersecurity.captivate.fm/support\n\n#cybersecurity #breakingintocybersecurity  #informationsecurity  #AdvanceYourCyberCareer \n\nCheck out our books: \n\nDevelop Your Cybersecurity Career Path: How to Break into Cybersecurity at Any Level: https://amzn.to/3443AUI\nHack the Cybersecurity Interview: A complete interview preparation guide for jumpstarting your cybersecurity career https://www.amazon.com/dp/1801816638/",
+            "summary_detail": {
+                "type": "text/html",
+                "language": null,
+                "base": "https://www.youtube.com/feeds/videos.xml?channel_id=UCM3YAEDu6W7JmQc0kb-CNtw",
+                "value": "Sponsored by CPF Coaching LLC - http://cpf-coaching.com\n\nThe Breaking into Cybersecurity: It\u2019s a conversation about what they did before, why did they pivot into cyber, what the process was they went through Breaking Into Cybersecurity, how they keep up, and advice/tips/tricks along the way.\n\nThe Breaking into Cybersecurity Leadership Series is an additional series focused on cybersecurity leadership and hearing directly from different leaders in cybersecurity (high and low) on what it takes to be a successful leader. We focus on the skills and competencies associated with cybersecurity leadership and tips/tricks/advice from cybersecurity leaders.\n\n\nThis podcast relies on listener support, donate or become a member for early access to content:\nhttps://breaking-into-cybersecurity.captivate.fm/support\n\n#cybersecurity #breakingintocybersecurity  #informationsecurity  #AdvanceYourCyberCareer \n\nCheck out our books: \n\nDevelop Your Cybersecurity Career Path: How to Break into Cybersecurity at Any Level: https://amzn.to/3443AUI\nHack the Cybersecurity Interview: A complete interview preparation guide for jumpstarting your cybersecurity career https://www.amazon.com/dp/1801816638/"
+            },
+            "media_starrating": {
+                "count": "0",
+                "average": "0.00",
+                "min": "1",
+                "max": "5"
+            },
+            "media_statistics": {
+                "views": "19"
+            },
+            "media_community": ""
+        },
+        {
+            "id": "yt:video:Lib4-1YCNy8",
+            "guidislink": true,
+            "link": "https://www.youtube.com/watch?v=Lib4-1YCNy8",
+            "yt_videoid": "Lib4-1YCNy8",
+            "yt_channelid": "UCM3YAEDu6W7JmQc0kb-CNtw",
+            "title": "Discover Your Starting Point in the World of Forensics #cybersecurity #podcast",
+            "title_detail": {
+                "type": "text/plain",
+                "language": null,
+                "base": "https://www.youtube.com/feeds/videos.xml?channel_id=UCM3YAEDu6W7JmQc0kb-CNtw",
+                "value": "Discover Your Starting Point in the World of Forensics #cybersecurity #podcast"
+            },
+            "links": [
+                {
+                    "rel": "alternate",
+                    "href": "https://www.youtube.com/watch?v=Lib4-1YCNy8",
+                    "type": "text/html"
+                }
+            ],
+            "authors": [
+                {
+                    "name": "Breaking Into Cybersecurity",
+                    "href": "https://www.youtube.com/channel/UCM3YAEDu6W7JmQc0kb-CNtw"
+                }
+            ],
+            "author_detail": {
+                "name": "Breaking Into Cybersecurity",
+                "href": "https://www.youtube.com/channel/UCM3YAEDu6W7JmQc0kb-CNtw"
+            },
+            "href": "",
+            "author": "Breaking Into Cybersecurity",
+            "published": "2024-12-10T20:26:48+00:00",
+            "published_parsed": [
+                2024,
+                12,
+                10,
+                20,
+                26,
+                48,
+                1,
+                345,
+                0
+            ],
+            "updated": "2025-01-09T23:57:49+00:00",
+            "updated_parsed": [
+                2025,
+                1,
+                9,
+                23,
+                57,
+                49,
+                3,
+                9,
+                0
+            ],
+            "media_content": [
+                {
+                    "url": "https://www.youtube.com/v/Lib4-1YCNy8?version=3",
+                    "type": "application/x-shockwave-flash",
+                    "width": "640",
+                    "height": "390"
+                }
+            ],
+            "media_thumbnail": [
+                {
+                    "url": "https://i1.ytimg.com/vi/Lib4-1YCNy8/hqdefault.jpg",
+                    "width": "480",
+                    "height": "360"
+                }
+            ],
+            "summary": "Sponsored by CPF Coaching LLC - http://cpf-coaching.com\n\nThe Breaking into Cybersecurity: It\u2019s a conversation about what they did before, why did they pivot into cyber, what the process was they went through Breaking Into Cybersecurity, how they keep up, and advice/tips/tricks along the way.\n\nThe Breaking into Cybersecurity Leadership Series is an additional series focused on cybersecurity leadership and hearing directly from different leaders in cybersecurity (high and low) on what it takes to be a successful leader. We focus on the skills and competencies associated with cybersecurity leadership and tips/tricks/advice from cybersecurity leaders.\n\n\nThis podcast relies on listener support, donate or become a member for early access to content:\nhttps://breaking-into-cybersecurity.captivate.fm/support\n\n#cybersecurity #breakingintocybersecurity  #informationsecurity  #AdvanceYourCyberCareer \n\nCheck out our books: \n\nDevelop Your Cybersecurity Career Path: How to Break into Cybersecurity at Any Level: https://amzn.to/3443AUI\nHack the Cybersecurity Interview: A complete interview preparation guide for jumpstarting your cybersecurity career https://www.amazon.com/dp/1801816638/",
+            "summary_detail": {
+                "type": "text/html",
+                "language": null,
+                "base": "https://www.youtube.com/feeds/videos.xml?channel_id=UCM3YAEDu6W7JmQc0kb-CNtw",
+                "value": "Sponsored by CPF Coaching LLC - http://cpf-coaching.com\n\nThe Breaking into Cybersecurity: It\u2019s a conversation about what they did before, why did they pivot into cyber, what the process was they went through Breaking Into Cybersecurity, how they keep up, and advice/tips/tricks along the way.\n\nThe Breaking into Cybersecurity Leadership Series is an additional series focused on cybersecurity leadership and hearing directly from different leaders in cybersecurity (high and low) on what it takes to be a successful leader. We focus on the skills and competencies associated with cybersecurity leadership and tips/tricks/advice from cybersecurity leaders.\n\n\nThis podcast relies on listener support, donate or become a member for early access to content:\nhttps://breaking-into-cybersecurity.captivate.fm/support\n\n#cybersecurity #breakingintocybersecurity  #informationsecurity  #AdvanceYourCyberCareer \n\nCheck out our books: \n\nDevelop Your Cybersecurity Career Path: How to Break into Cybersecurity at Any Level: https://amzn.to/3443AUI\nHack the Cybersecurity Interview: A complete interview preparation guide for jumpstarting your cybersecurity career https://www.amazon.com/dp/1801816638/"
+            },
+            "media_starrating": {
+                "count": "2",
+                "average": "5.00",
+                "min": "1",
+                "max": "5"
+            },
+            "media_statistics": {
+                "views": "373"
+            },
+            "media_community": ""
+        },
+        {
+            "id": "yt:video:RqZBIi8a7lg",
+            "guidislink": true,
+            "link": "https://www.youtube.com/watch?v=RqZBIi8a7lg",
+            "yt_videoid": "RqZBIi8a7lg",
+            "yt_channelid": "UCM3YAEDu6W7JmQc0kb-CNtw",
+            "title": "Unlocking Your Potential_ Continuous Improvement in Forensic Work #cybersecurity #podcast",
+            "title_detail": {
+                "type": "text/plain",
+                "language": null,
+                "base": "https://www.youtube.com/feeds/videos.xml?channel_id=UCM3YAEDu6W7JmQc0kb-CNtw",
+                "value": "Unlocking Your Potential_ Continuous Improvement in Forensic Work #cybersecurity #podcast"
+            },
+            "links": [
+                {
+                    "rel": "alternate",
+                    "href": "https://www.youtube.com/watch?v=RqZBIi8a7lg",
+                    "type": "text/html"
+                }
+            ],
+            "authors": [
+                {
+                    "name": "Breaking Into Cybersecurity",
+                    "href": "https://www.youtube.com/channel/UCM3YAEDu6W7JmQc0kb-CNtw"
+                }
+            ],
+            "author_detail": {
+                "name": "Breaking Into Cybersecurity",
+                "href": "https://www.youtube.com/channel/UCM3YAEDu6W7JmQc0kb-CNtw"
+            },
+            "href": "",
+            "author": "Breaking Into Cybersecurity",
+            "published": "2024-12-10T20:25:35+00:00",
+            "published_parsed": [
+                2024,
+                12,
+                10,
+                20,
+                25,
+                35,
+                1,
+                345,
+                0
+            ],
+            "updated": "2025-01-10T00:04:49+00:00",
+            "updated_parsed": [
+                2025,
+                1,
+                10,
+                0,
+                4,
+                49,
+                4,
+                10,
+                0
+            ],
+            "media_content": [
+                {
+                    "url": "https://www.youtube.com/v/RqZBIi8a7lg?version=3",
+                    "type": "application/x-shockwave-flash",
+                    "width": "640",
+                    "height": "390"
+                }
+            ],
+            "media_thumbnail": [
+                {
+                    "url": "https://i3.ytimg.com/vi/RqZBIi8a7lg/hqdefault.jpg",
+                    "width": "480",
+                    "height": "360"
+                }
+            ],
+            "summary": "Sponsored by CPF Coaching LLC - http://cpf-coaching.com\n\nThe Breaking into Cybersecurity: It\u2019s a conversation about what they did before, why did they pivot into cyber, what the process was they went through Breaking Into Cybersecurity, how they keep up, and advice/tips/tricks along the way.\n\nThe Breaking into Cybersecurity Leadership Series is an additional series focused on cybersecurity leadership and hearing directly from different leaders in cybersecurity (high and low) on what it takes to be a successful leader. We focus on the skills and competencies associated with cybersecurity leadership and tips/tricks/advice from cybersecurity leaders.\n\n\nThis podcast relies on listener support, donate or become a member for early access to content:\nhttps://breaking-into-cybersecurity.captivate.fm/support\n\n#cybersecurity #breakingintocybersecurity  #informationsecurity  #AdvanceYourCyberCareer \n\nCheck out our books: \n\nDevelop Your Cybersecurity Career Path: How to Break into Cybersecurity at Any Level: https://amzn.to/3443AUI\nHack the Cybersecurity Interview: A complete interview preparation guide for jumpstarting your cybersecurity career https://www.amazon.com/dp/1801816638/",
+            "summary_detail": {
+                "type": "text/html",
+                "language": null,
+                "base": "https://www.youtube.com/feeds/videos.xml?channel_id=UCM3YAEDu6W7JmQc0kb-CNtw",
+                "value": "Sponsored by CPF Coaching LLC - http://cpf-coaching.com\n\nThe Breaking into Cybersecurity: It\u2019s a conversation about what they did before, why did they pivot into cyber, what the process was they went through Breaking Into Cybersecurity, how they keep up, and advice/tips/tricks along the way.\n\nThe Breaking into Cybersecurity Leadership Series is an additional series focused on cybersecurity leadership and hearing directly from different leaders in cybersecurity (high and low) on what it takes to be a successful leader. We focus on the skills and competencies associated with cybersecurity leadership and tips/tricks/advice from cybersecurity leaders.\n\n\nThis podcast relies on listener support, donate or become a member for early access to content:\nhttps://breaking-into-cybersecurity.captivate.fm/support\n\n#cybersecurity #breakingintocybersecurity  #informationsecurity  #AdvanceYourCyberCareer \n\nCheck out our books: \n\nDevelop Your Cybersecurity Career Path: How to Break into Cybersecurity at Any Level: https://amzn.to/3443AUI\nHack the Cybersecurity Interview: A complete interview preparation guide for jumpstarting your cybersecurity career https://www.amazon.com/dp/1801816638/"
+            },
+            "media_starrating": {
+                "count": "1",
+                "average": "5.00",
+                "min": "1",
+                "max": "5"
+            },
+            "media_statistics": {
+                "views": "192"
+            },
+            "media_community": ""
+        },
+        {
+            "id": "yt:video:UwlDH0_yDzw",
+            "guidislink": true,
+            "link": "https://www.youtube.com/watch?v=UwlDH0_yDzw",
+            "yt_videoid": "UwlDH0_yDzw",
+            "yt_channelid": "UCM3YAEDu6W7JmQc0kb-CNtw",
+            "title": "Unveiling Real Limits_ The Era of Offensive AI Emerges  #cybersecurity #podcast",
+            "title_detail": {
+                "type": "text/plain",
+                "language": null,
+                "base": "https://www.youtube.com/feeds/videos.xml?channel_id=UCM3YAEDu6W7JmQc0kb-CNtw",
+                "value": "Unveiling Real Limits_ The Era of Offensive AI Emerges  #cybersecurity #podcast"
+            },
+            "links": [
+                {
+                    "rel": "alternate",
+                    "href": "https://www.youtube.com/watch?v=UwlDH0_yDzw",
+                    "type": "text/html"
+                }
+            ],
+            "authors": [
+                {
+                    "name": "Breaking Into Cybersecurity",
+                    "href": "https://www.youtube.com/channel/UCM3YAEDu6W7JmQc0kb-CNtw"
+                }
+            ],
+            "author_detail": {
+                "name": "Breaking Into Cybersecurity",
+                "href": "https://www.youtube.com/channel/UCM3YAEDu6W7JmQc0kb-CNtw"
+            },
+            "href": "",
+            "author": "Breaking Into Cybersecurity",
+            "published": "2024-12-10T20:24:07+00:00",
+            "published_parsed": [
+                2024,
+                12,
+                10,
+                20,
+                24,
+                7,
+                1,
+                345,
+                0
+            ],
+            "updated": "2025-01-10T14:02:20+00:00",
+            "updated_parsed": [
+                2025,
+                1,
+                10,
+                14,
+                2,
+                20,
+                4,
+                10,
+                0
+            ],
+            "media_content": [
+                {
+                    "url": "https://www.youtube.com/v/UwlDH0_yDzw?version=3",
+                    "type": "application/x-shockwave-flash",
+                    "width": "640",
+                    "height": "390"
+                }
+            ],
+            "media_thumbnail": [
+                {
+                    "url": "https://i2.ytimg.com/vi/UwlDH0_yDzw/hqdefault.jpg",
+                    "width": "480",
+                    "height": "360"
+                }
+            ],
+            "summary": "Sponsored by CPF Coaching LLC - http://cpf-coaching.com\n\nThe Breaking into Cybersecurity: It\u2019s a conversation about what they did before, why did they pivot into cyber, what the process was they went through Breaking Into Cybersecurity, how they keep up, and advice/tips/tricks along the way.\n\nThe Breaking into Cybersecurity Leadership Series is an additional series focused on cybersecurity leadership and hearing directly from different leaders in cybersecurity (high and low) on what it takes to be a successful leader. We focus on the skills and competencies associated with cybersecurity leadership and tips/tricks/advice from cybersecurity leaders.\n\n\nThis podcast relies on listener support, donate or become a member for early access to content:\nhttps://breaking-into-cybersecurity.captivate.fm/support\n\n#cybersecurity #breakingintocybersecurity  #informationsecurity  #AdvanceYourCyberCareer \n\nCheck out our books: \n\nDevelop Your Cybersecurity Career Path: How to Break into Cybersecurity at Any Level: https://amzn.to/3443AUI\nHack the Cybersecurity Interview: A complete interview preparation guide for jumpstarting your cybersecurity career https://www.amazon.com/dp/1801816638/",
+            "summary_detail": {
+                "type": "text/html",
+                "language": null,
+                "base": "https://www.youtube.com/feeds/videos.xml?channel_id=UCM3YAEDu6W7JmQc0kb-CNtw",
+                "value": "Sponsored by CPF Coaching LLC - http://cpf-coaching.com\n\nThe Breaking into Cybersecurity: It\u2019s a conversation about what they did before, why did they pivot into cyber, what the process was they went through Breaking Into Cybersecurity, how they keep up, and advice/tips/tricks along the way.\n\nThe Breaking into Cybersecurity Leadership Series is an additional series focused on cybersecurity leadership and hearing directly from different leaders in cybersecurity (high and low) on what it takes to be a successful leader. We focus on the skills and competencies associated with cybersecurity leadership and tips/tricks/advice from cybersecurity leaders.\n\n\nThis podcast relies on listener support, donate or become a member for early access to content:\nhttps://breaking-into-cybersecurity.captivate.fm/support\n\n#cybersecurity #breakingintocybersecurity  #informationsecurity  #AdvanceYourCyberCareer \n\nCheck out our books: \n\nDevelop Your Cybersecurity Career Path: How to Break into Cybersecurity at Any Level: https://amzn.to/3443AUI\nHack the Cybersecurity Interview: A complete interview preparation guide for jumpstarting your cybersecurity career https://www.amazon.com/dp/1801816638/"
+            },
+            "media_starrating": {
+                "count": "1",
+                "average": "5.00",
+                "min": "1",
+                "max": "5"
+            },
+            "media_statistics": {
+                "views": "408"
+            },
+            "media_community": ""
+        },
+        {
+            "id": "yt:video:cVRrCr9tfFw",
+            "guidislink": true,
+            "link": "https://www.youtube.com/watch?v=cVRrCr9tfFw",
+            "yt_videoid": "cVRrCr9tfFw",
+            "yt_channelid": "UCM3YAEDu6W7JmQc0kb-CNtw",
+            "title": "Unleashing Hidden Talents_ Red Team Traits that Shine #cybersecurity #podcast",
+            "title_detail": {
+                "type": "text/plain",
+                "language": null,
+                "base": "https://www.youtube.com/feeds/videos.xml?channel_id=UCM3YAEDu6W7JmQc0kb-CNtw",
+                "value": "Unleashing Hidden Talents_ Red Team Traits that Shine #cybersecurity #podcast"
+            },
+            "links": [
+                {
+                    "rel": "alternate",
+                    "href": "https://www.youtube.com/watch?v=cVRrCr9tfFw",
+                    "type": "text/html"
+                }
+            ],
+            "authors": [
+                {
+                    "name": "Breaking Into Cybersecurity",
+                    "href": "https://www.youtube.com/channel/UCM3YAEDu6W7JmQc0kb-CNtw"
+                }
+            ],
+            "author_detail": {
+                "name": "Breaking Into Cybersecurity",
+                "href": "https://www.youtube.com/channel/UCM3YAEDu6W7JmQc0kb-CNtw"
+            },
+            "href": "",
+            "author": "Breaking Into Cybersecurity",
+            "published": "2024-12-10T20:23:41+00:00",
+            "published_parsed": [
+                2024,
+                12,
+                10,
+                20,
+                23,
+                41,
+                1,
+                345,
+                0
+            ],
+            "updated": "2025-01-10T14:11:36+00:00",
+            "updated_parsed": [
+                2025,
+                1,
+                10,
+                14,
+                11,
+                36,
+                4,
+                10,
+                0
+            ],
+            "media_content": [
+                {
+                    "url": "https://www.youtube.com/v/cVRrCr9tfFw?version=3",
+                    "type": "application/x-shockwave-flash",
+                    "width": "640",
+                    "height": "390"
+                }
+            ],
+            "media_thumbnail": [
+                {
+                    "url": "https://i4.ytimg.com/vi/cVRrCr9tfFw/hqdefault.jpg",
+                    "width": "480",
+                    "height": "360"
+                }
+            ],
+            "summary": "Sponsored by CPF Coaching LLC - http://cpf-coaching.com\n\nThe Breaking into Cybersecurity: It\u2019s a conversation about what they did before, why did they pivot into cyber, what the process was they went through Breaking Into Cybersecurity, how they keep up, and advice/tips/tricks along the way.\n\nThe Breaking into Cybersecurity Leadership Series is an additional series focused on cybersecurity leadership and hearing directly from different leaders in cybersecurity (high and low) on what it takes to be a successful leader. We focus on the skills and competencies associated with cybersecurity leadership and tips/tricks/advice from cybersecurity leaders.\n\n\nThis podcast relies on listener support, donate or become a member for early access to content:\nhttps://breaking-into-cybersecurity.captivate.fm/support\n\n#cybersecurity #breakingintocybersecurity  #informationsecurity  #AdvanceYourCyberCareer \n\nCheck out our books: \n\nDevelop Your Cybersecurity Career Path: How to Break into Cybersecurity at Any Level: https://amzn.to/3443AUI\nHack the Cybersecurity Interview: A complete interview preparation guide for jumpstarting your cybersecurity career https://www.amazon.com/dp/1801816638/",
+            "summary_detail": {
+                "type": "text/html",
+                "language": null,
+                "base": "https://www.youtube.com/feeds/videos.xml?channel_id=UCM3YAEDu6W7JmQc0kb-CNtw",
+                "value": "Sponsored by CPF Coaching LLC - http://cpf-coaching.com\n\nThe Breaking into Cybersecurity: It\u2019s a conversation about what they did before, why did they pivot into cyber, what the process was they went through Breaking Into Cybersecurity, how they keep up, and advice/tips/tricks along the way.\n\nThe Breaking into Cybersecurity Leadership Series is an additional series focused on cybersecurity leadership and hearing directly from different leaders in cybersecurity (high and low) on what it takes to be a successful leader. We focus on the skills and competencies associated with cybersecurity leadership and tips/tricks/advice from cybersecurity leaders.\n\n\nThis podcast relies on listener support, donate or become a member for early access to content:\nhttps://breaking-into-cybersecurity.captivate.fm/support\n\n#cybersecurity #breakingintocybersecurity  #informationsecurity  #AdvanceYourCyberCareer \n\nCheck out our books: \n\nDevelop Your Cybersecurity Career Path: How to Break into Cybersecurity at Any Level: https://amzn.to/3443AUI\nHack the Cybersecurity Interview: A complete interview preparation guide for jumpstarting your cybersecurity career https://www.amazon.com/dp/1801816638/"
+            },
+            "media_starrating": {
+                "count": "0",
+                "average": "0.00",
+                "min": "1",
+                "max": "5"
+            },
+            "media_statistics": {
+                "views": "31"
+            },
+            "media_community": ""
+        },
+        {
+            "id": "yt:video:6_-XkjEX7ME",
+            "guidislink": true,
+            "link": "https://www.youtube.com/watch?v=6_-XkjEX7ME",
+            "yt_videoid": "6_-XkjEX7ME",
+            "yt_channelid": "UCM3YAEDu6W7JmQc0kb-CNtw",
+            "title": "Tailor-Made Security_ Building High-Security Hosting Strategies #cybersecurity #podcast",
+            "title_detail": {
+                "type": "text/plain",
+                "language": null,
+                "base": "https://www.youtube.com/feeds/videos.xml?channel_id=UCM3YAEDu6W7JmQc0kb-CNtw",
+                "value": "Tailor-Made Security_ Building High-Security Hosting Strategies #cybersecurity #podcast"
+            },
+            "links": [
+                {
+                    "rel": "alternate",
+                    "href": "https://www.youtube.com/watch?v=6_-XkjEX7ME",
+                    "type": "text/html"
+                }
+            ],
+            "authors": [
+                {
+                    "name": "Breaking Into Cybersecurity",
+                    "href": "https://www.youtube.com/channel/UCM3YAEDu6W7JmQc0kb-CNtw"
+                }
+            ],
+            "author_detail": {
+                "name": "Breaking Into Cybersecurity",
+                "href": "https://www.youtube.com/channel/UCM3YAEDu6W7JmQc0kb-CNtw"
+            },
+            "href": "",
+            "author": "Breaking Into Cybersecurity",
+            "published": "2024-12-10T20:23:14+00:00",
+            "published_parsed": [
+                2024,
+                12,
+                10,
+                20,
+                23,
+                14,
+                1,
+                345,
+                0
+            ],
+            "updated": "2025-01-12T21:49:18+00:00",
+            "updated_parsed": [
+                2025,
+                1,
+                12,
+                21,
+                49,
+                18,
+                6,
+                12,
+                0
+            ],
+            "media_content": [
+                {
+                    "url": "https://www.youtube.com/v/6_-XkjEX7ME?version=3",
+                    "type": "application/x-shockwave-flash",
+                    "width": "640",
+                    "height": "390"
+                }
+            ],
+            "media_thumbnail": [
+                {
+                    "url": "https://i3.ytimg.com/vi/6_-XkjEX7ME/hqdefault.jpg",
+                    "width": "480",
+                    "height": "360"
+                }
+            ],
+            "summary": "Sponsored by CPF Coaching LLC - http://cpf-coaching.com\n\nThe Breaking into Cybersecurity: It\u2019s a conversation about what they did before, why did they pivot into cyber, what the process was they went through Breaking Into Cybersecurity, how they keep up, and advice/tips/tricks along the way.\n\nThe Breaking into Cybersecurity Leadership Series is an additional series focused on cybersecurity leadership and hearing directly from different leaders in cybersecurity (high and low) on what it takes to be a successful leader. We focus on the skills and competencies associated with cybersecurity leadership and tips/tricks/advice from cybersecurity leaders.\n\n\nThis podcast relies on listener support, donate or become a member for early access to content:\nhttps://breaking-into-cybersecurity.captivate.fm/support\n\n#cybersecurity #breakingintocybersecurity  #informationsecurity  #AdvanceYourCyberCareer \n\nCheck out our books: \n\nDevelop Your Cybersecurity Career Path: How to Break into Cybersecurity at Any Level: https://amzn.to/3443AUI\nHack the Cybersecurity Interview: A complete interview preparation guide for jumpstarting your cybersecurity career https://www.amazon.com/dp/1801816638/",
+            "summary_detail": {
+                "type": "text/html",
+                "language": null,
+                "base": "https://www.youtube.com/feeds/videos.xml?channel_id=UCM3YAEDu6W7JmQc0kb-CNtw",
+                "value": "Sponsored by CPF Coaching LLC - http://cpf-coaching.com\n\nThe Breaking into Cybersecurity: It\u2019s a conversation about what they did before, why did they pivot into cyber, what the process was they went through Breaking Into Cybersecurity, how they keep up, and advice/tips/tricks along the way.\n\nThe Breaking into Cybersecurity Leadership Series is an additional series focused on cybersecurity leadership and hearing directly from different leaders in cybersecurity (high and low) on what it takes to be a successful leader. We focus on the skills and competencies associated with cybersecurity leadership and tips/tricks/advice from cybersecurity leaders.\n\n\nThis podcast relies on listener support, donate or become a member for early access to content:\nhttps://breaking-into-cybersecurity.captivate.fm/support\n\n#cybersecurity #breakingintocybersecurity  #informationsecurity  #AdvanceYourCyberCareer \n\nCheck out our books: \n\nDevelop Your Cybersecurity Career Path: How to Break into Cybersecurity at Any Level: https://amzn.to/3443AUI\nHack the Cybersecurity Interview: A complete interview preparation guide for jumpstarting your cybersecurity career https://www.amazon.com/dp/1801816638/"
+            },
+            "media_starrating": {
+                "count": "0",
+                "average": "0.00",
+                "min": "1",
+                "max": "5"
+            },
+            "media_statistics": {
+                "views": "10"
+            },
+            "media_community": ""
+        },
+        {
+            "id": "yt:video:kIvDBMtHGPM",
+            "guidislink": true,
+            "link": "https://www.youtube.com/watch?v=kIvDBMtHGPM",
+            "yt_videoid": "kIvDBMtHGPM",
+            "yt_channelid": "UCM3YAEDu6W7JmQc0kb-CNtw",
+            "title": "Unlocking Potential_ Assessing Key Skills for Career Growth #cybersecurity #podcast",
+            "title_detail": {
+                "type": "text/plain",
+                "language": null,
+                "base": "https://www.youtube.com/feeds/videos.xml?channel_id=UCM3YAEDu6W7JmQc0kb-CNtw",
+                "value": "Unlocking Potential_ Assessing Key Skills for Career Growth #cybersecurity #podcast"
+            },
+            "links": [
+                {
+                    "rel": "alternate",
+                    "href": "https://www.youtube.com/watch?v=kIvDBMtHGPM",
+                    "type": "text/html"
+                }
+            ],
+            "authors": [
+                {
+                    "name": "Breaking Into Cybersecurity",
+                    "href": "https://www.youtube.com/channel/UCM3YAEDu6W7JmQc0kb-CNtw"
+                }
+            ],
+            "author_detail": {
+                "name": "Breaking Into Cybersecurity",
+                "href": "https://www.youtube.com/channel/UCM3YAEDu6W7JmQc0kb-CNtw"
+            },
+            "href": "",
+            "author": "Breaking Into Cybersecurity",
+            "published": "2024-12-10T20:22:43+00:00",
+            "published_parsed": [
+                2024,
+                12,
+                10,
+                20,
+                22,
+                43,
+                1,
+                345,
+                0
+            ],
+            "updated": "2025-01-10T23:35:07+00:00",
+            "updated_parsed": [
+                2025,
+                1,
+                10,
+                23,
+                35,
+                7,
+                4,
+                10,
+                0
+            ],
+            "media_content": [
+                {
+                    "url": "https://www.youtube.com/v/kIvDBMtHGPM?version=3",
+                    "type": "application/x-shockwave-flash",
+                    "width": "640",
+                    "height": "390"
+                }
+            ],
+            "media_thumbnail": [
+                {
+                    "url": "https://i4.ytimg.com/vi/kIvDBMtHGPM/hqdefault.jpg",
+                    "width": "480",
+                    "height": "360"
+                }
+            ],
+            "summary": "Sponsored by CPF Coaching LLC - http://cpf-coaching.com\n\nThe Breaking into Cybersecurity: It\u2019s a conversation about what they did before, why did they pivot into cyber, what the process was they went through Breaking Into Cybersecurity, how they keep up, and advice/tips/tricks along the way.\n\nThe Breaking into Cybersecurity Leadership Series is an additional series focused on cybersecurity leadership and hearing directly from different leaders in cybersecurity (high and low) on what it takes to be a successful leader. We focus on the skills and competencies associated with cybersecurity leadership and tips/tricks/advice from cybersecurity leaders.\n\n\nThis podcast relies on listener support, donate or become a member for early access to content:\nhttps://breaking-into-cybersecurity.captivate.fm/support\n\n#cybersecurity #breakingintocybersecurity  #informationsecurity  #AdvanceYourCyberCareer \n\nCheck out our books: \n\nDevelop Your Cybersecurity Career Path: How to Break into Cybersecurity at Any Level: https://amzn.to/3443AUI\nHack the Cybersecurity Interview: A complete interview preparation guide for jumpstarting your cybersecurity career https://www.amazon.com/dp/1801816638/",
+            "summary_detail": {
+                "type": "text/html",
+                "language": null,
+                "base": "https://www.youtube.com/feeds/videos.xml?channel_id=UCM3YAEDu6W7JmQc0kb-CNtw",
+                "value": "Sponsored by CPF Coaching LLC - http://cpf-coaching.com\n\nThe Breaking into Cybersecurity: It\u2019s a conversation about what they did before, why did they pivot into cyber, what the process was they went through Breaking Into Cybersecurity, how they keep up, and advice/tips/tricks along the way.\n\nThe Breaking into Cybersecurity Leadership Series is an additional series focused on cybersecurity leadership and hearing directly from different leaders in cybersecurity (high and low) on what it takes to be a successful leader. We focus on the skills and competencies associated with cybersecurity leadership and tips/tricks/advice from cybersecurity leaders.\n\n\nThis podcast relies on listener support, donate or become a member for early access to content:\nhttps://breaking-into-cybersecurity.captivate.fm/support\n\n#cybersecurity #breakingintocybersecurity  #informationsecurity  #AdvanceYourCyberCareer \n\nCheck out our books: \n\nDevelop Your Cybersecurity Career Path: How to Break into Cybersecurity at Any Level: https://amzn.to/3443AUI\nHack the Cybersecurity Interview: A complete interview preparation guide for jumpstarting your cybersecurity career https://www.amazon.com/dp/1801816638/"
+            },
+            "media_starrating": {
+                "count": "0",
+                "average": "0.00",
+                "min": "1",
+                "max": "5"
+            },
+            "media_statistics": {
+                "views": "7"
+            },
+            "media_community": ""
+        },
+        {
+            "id": "yt:video:YZWR7MN7JXE",
+            "guidislink": true,
+            "link": "https://www.youtube.com/watch?v=YZWR7MN7JXE",
+            "yt_videoid": "YZWR7MN7JXE",
+            "yt_channelid": "UCM3YAEDu6W7JmQc0kb-CNtw",
+            "title": "Crafting Your Career Path_ From Novice to Expert  #cybersecurity #podcast",
+            "title_detail": {
+                "type": "text/plain",
+                "language": null,
+                "base": "https://www.youtube.com/feeds/videos.xml?channel_id=UCM3YAEDu6W7JmQc0kb-CNtw",
+                "value": "Crafting Your Career Path_ From Novice to Expert  #cybersecurity #podcast"
+            },
+            "links": [
+                {
+                    "rel": "alternate",
+                    "href": "https://www.youtube.com/watch?v=YZWR7MN7JXE",
+                    "type": "text/html"
+                }
+            ],
+            "authors": [
+                {
+                    "name": "Breaking Into Cybersecurity",
+                    "href": "https://www.youtube.com/channel/UCM3YAEDu6W7JmQc0kb-CNtw"
+                }
+            ],
+            "author_detail": {
+                "name": "Breaking Into Cybersecurity",
+                "href": "https://www.youtube.com/channel/UCM3YAEDu6W7JmQc0kb-CNtw"
+            },
+            "href": "",
+            "author": "Breaking Into Cybersecurity",
+            "published": "2024-12-10T20:22:15+00:00",
+            "published_parsed": [
+                2024,
+                12,
+                10,
+                20,
+                22,
+                15,
+                1,
+                345,
+                0
+            ],
+            "updated": "2025-01-10T00:04:06+00:00",
+            "updated_parsed": [
+                2025,
+                1,
+                10,
+                0,
+                4,
+                6,
+                4,
+                10,
+                0
+            ],
+            "media_content": [
+                {
+                    "url": "https://www.youtube.com/v/YZWR7MN7JXE?version=3",
+                    "type": "application/x-shockwave-flash",
+                    "width": "640",
+                    "height": "390"
+                }
+            ],
+            "media_thumbnail": [
+                {
+                    "url": "https://i2.ytimg.com/vi/YZWR7MN7JXE/hqdefault.jpg",
+                    "width": "480",
+                    "height": "360"
+                }
+            ],
+            "summary": "Sponsored by CPF Coaching LLC - http://cpf-coaching.com\n\nThe Breaking into Cybersecurity: It\u2019s a conversation about what they did before, why did they pivot into cyber, what the process was they went through Breaking Into Cybersecurity, how they keep up, and advice/tips/tricks along the way.\n\nThe Breaking into Cybersecurity Leadership Series is an additional series focused on cybersecurity leadership and hearing directly from different leaders in cybersecurity (high and low) on what it takes to be a successful leader. We focus on the skills and competencies associated with cybersecurity leadership and tips/tricks/advice from cybersecurity leaders.\n\n\nThis podcast relies on listener support, donate or become a member for early access to content:\nhttps://breaking-into-cybersecurity.captivate.fm/support\n\n#cybersecurity #breakingintocybersecurity  #informationsecurity  #AdvanceYourCyberCareer \n\nCheck out our books: \n\nDevelop Your Cybersecurity Career Path: How to Break into Cybersecurity at Any Level: https://amzn.to/3443AUI\nHack the Cybersecurity Interview: A complete interview preparation guide for jumpstarting your cybersecurity career https://www.amazon.com/dp/1801816638/",
+            "summary_detail": {
+                "type": "text/html",
+                "language": null,
+                "base": "https://www.youtube.com/feeds/videos.xml?channel_id=UCM3YAEDu6W7JmQc0kb-CNtw",
+                "value": "Sponsored by CPF Coaching LLC - http://cpf-coaching.com\n\nThe Breaking into Cybersecurity: It\u2019s a conversation about what they did before, why did they pivot into cyber, what the process was they went through Breaking Into Cybersecurity, how they keep up, and advice/tips/tricks along the way.\n\nThe Breaking into Cybersecurity Leadership Series is an additional series focused on cybersecurity leadership and hearing directly from different leaders in cybersecurity (high and low) on what it takes to be a successful leader. We focus on the skills and competencies associated with cybersecurity leadership and tips/tricks/advice from cybersecurity leaders.\n\n\nThis podcast relies on listener support, donate or become a member for early access to content:\nhttps://breaking-into-cybersecurity.captivate.fm/support\n\n#cybersecurity #breakingintocybersecurity  #informationsecurity  #AdvanceYourCyberCareer \n\nCheck out our books: \n\nDevelop Your Cybersecurity Career Path: How to Break into Cybersecurity at Any Level: https://amzn.to/3443AUI\nHack the Cybersecurity Interview: A complete interview preparation guide for jumpstarting your cybersecurity career https://www.amazon.com/dp/1801816638/"
+            },
+            "media_starrating": {
+                "count": "0",
+                "average": "0.00",
+                "min": "1",
+                "max": "5"
+            },
+            "media_statistics": {
+                "views": "4"
+            },
+            "media_community": ""
+        },
+        {
+            "id": "yt:video:y3UxyHaosmg",
+            "guidislink": true,
+            "link": "https://www.youtube.com/watch?v=y3UxyHaosmg",
+            "yt_videoid": "y3UxyHaosmg",
+            "yt_channelid": "UCM3YAEDu6W7JmQc0kb-CNtw",
+            "title": "Empowering Future Leaders_ Tips for Growth #cybersecurity #podcast",
+            "title_detail": {
+                "type": "text/plain",
+                "language": null,
+                "base": "https://www.youtube.com/feeds/videos.xml?channel_id=UCM3YAEDu6W7JmQc0kb-CNtw",
+                "value": "Empowering Future Leaders_ Tips for Growth #cybersecurity #podcast"
+            },
+            "links": [
+                {
+                    "rel": "alternate",
+                    "href": "https://www.youtube.com/watch?v=y3UxyHaosmg",
+                    "type": "text/html"
+                }
+            ],
+            "authors": [
+                {
+                    "name": "Breaking Into Cybersecurity",
+                    "href": "https://www.youtube.com/channel/UCM3YAEDu6W7JmQc0kb-CNtw"
+                }
+            ],
+            "author_detail": {
+                "name": "Breaking Into Cybersecurity",
+                "href": "https://www.youtube.com/channel/UCM3YAEDu6W7JmQc0kb-CNtw"
+            },
+            "href": "",
+            "author": "Breaking Into Cybersecurity",
+            "published": "2024-12-10T20:21:46+00:00",
+            "published_parsed": [
+                2024,
+                12,
+                10,
+                20,
+                21,
+                46,
+                1,
+                345,
+                0
+            ],
+            "updated": "2025-01-10T23:32:42+00:00",
+            "updated_parsed": [
+                2025,
+                1,
+                10,
+                23,
+                32,
+                42,
+                4,
+                10,
+                0
+            ],
+            "media_content": [
+                {
+                    "url": "https://www.youtube.com/v/y3UxyHaosmg?version=3",
+                    "type": "application/x-shockwave-flash",
+                    "width": "640",
+                    "height": "390"
+                }
+            ],
+            "media_thumbnail": [
+                {
+                    "url": "https://i2.ytimg.com/vi/y3UxyHaosmg/hqdefault.jpg",
+                    "width": "480",
+                    "height": "360"
+                }
+            ],
+            "summary": "Sponsored by CPF Coaching LLC - http://cpf-coaching.com\n\nThe Breaking into Cybersecurity: It\u2019s a conversation about what they did before, why did they pivot into cyber, what the process was they went through Breaking Into Cybersecurity, how they keep up, and advice/tips/tricks along the way.\n\nThe Breaking into Cybersecurity Leadership Series is an additional series focused on cybersecurity leadership and hearing directly from different leaders in cybersecurity (high and low) on what it takes to be a successful leader. We focus on the skills and competencies associated with cybersecurity leadership and tips/tricks/advice from cybersecurity leaders.\n\n\nThis podcast relies on listener support, donate or become a member for early access to content:\nhttps://breaking-into-cybersecurity.captivate.fm/support\n\n#cybersecurity #breakingintocybersecurity  #informationsecurity  #AdvanceYourCyberCareer \n\nCheck out our books: \n\nDevelop Your Cybersecurity Career Path: How to Break into Cybersecurity at Any Level: https://amzn.to/3443AUI\nHack the Cybersecurity Interview: A complete interview preparation guide for jumpstarting your cybersecurity career https://www.amazon.com/dp/1801816638/",
+            "summary_detail": {
+                "type": "text/html",
+                "language": null,
+                "base": "https://www.youtube.com/feeds/videos.xml?channel_id=UCM3YAEDu6W7JmQc0kb-CNtw",
+                "value": "Sponsored by CPF Coaching LLC - http://cpf-coaching.com\n\nThe Breaking into Cybersecurity: It\u2019s a conversation about what they did before, why did they pivot into cyber, what the process was they went through Breaking Into Cybersecurity, how they keep up, and advice/tips/tricks along the way.\n\nThe Breaking into Cybersecurity Leadership Series is an additional series focused on cybersecurity leadership and hearing directly from different leaders in cybersecurity (high and low) on what it takes to be a successful leader. We focus on the skills and competencies associated with cybersecurity leadership and tips/tricks/advice from cybersecurity leaders.\n\n\nThis podcast relies on listener support, donate or become a member for early access to content:\nhttps://breaking-into-cybersecurity.captivate.fm/support\n\n#cybersecurity #breakingintocybersecurity  #informationsecurity  #AdvanceYourCyberCareer \n\nCheck out our books: \n\nDevelop Your Cybersecurity Career Path: How to Break into Cybersecurity at Any Level: https://amzn.to/3443AUI\nHack the Cybersecurity Interview: A complete interview preparation guide for jumpstarting your cybersecurity career https://www.amazon.com/dp/1801816638/"
+            },
+            "media_starrating": {
+                "count": "1",
+                "average": "5.00",
+                "min": "1",
+                "max": "5"
+            },
+            "media_statistics": {
+                "views": "498"
+            },
+            "media_community": ""
+        },
+        {
+            "id": "yt:video:uM7NnFaUlEw",
+            "guidislink": true,
+            "link": "https://www.youtube.com/watch?v=uM7NnFaUlEw",
+            "yt_videoid": "uM7NnFaUlEw",
+            "yt_channelid": "UCM3YAEDu6W7JmQc0kb-CNtw",
+            "title": "Building Phenomenal Teams for Success #podcast #cybersecurity",
+            "title_detail": {
+                "type": "text/plain",
+                "language": null,
+                "base": "https://www.youtube.com/feeds/videos.xml?channel_id=UCM3YAEDu6W7JmQc0kb-CNtw",
+                "value": "Building Phenomenal Teams for Success #podcast #cybersecurity"
+            },
+            "links": [
+                {
+                    "rel": "alternate",
+                    "href": "https://www.youtube.com/watch?v=uM7NnFaUlEw",
+                    "type": "text/html"
+                }
+            ],
+            "authors": [
+                {
+                    "name": "Breaking Into Cybersecurity",
+                    "href": "https://www.youtube.com/channel/UCM3YAEDu6W7JmQc0kb-CNtw"
+                }
+            ],
+            "author_detail": {
+                "name": "Breaking Into Cybersecurity",
+                "href": "https://www.youtube.com/channel/UCM3YAEDu6W7JmQc0kb-CNtw"
+            },
+            "href": "",
+            "author": "Breaking Into Cybersecurity",
+            "published": "2024-12-10T20:21:15+00:00",
+            "published_parsed": [
+                2024,
+                12,
+                10,
+                20,
+                21,
+                15,
+                1,
+                345,
+                0
+            ],
+            "updated": "2025-01-10T23:33:16+00:00",
+            "updated_parsed": [
+                2025,
+                1,
+                10,
+                23,
+                33,
+                16,
+                4,
+                10,
+                0
+            ],
+            "media_content": [
+                {
+                    "url": "https://www.youtube.com/v/uM7NnFaUlEw?version=3",
+                    "type": "application/x-shockwave-flash",
+                    "width": "640",
+                    "height": "390"
+                }
+            ],
+            "media_thumbnail": [
+                {
+                    "url": "https://i2.ytimg.com/vi/uM7NnFaUlEw/hqdefault.jpg",
+                    "width": "480",
+                    "height": "360"
+                }
+            ],
+            "summary": "Sponsored by CPF Coaching LLC - http://cpf-coaching.com\n\nThe Breaking into Cybersecurity: It\u2019s a conversation about what they did before, why did they pivot into cyber, what the process was they went through Breaking Into Cybersecurity, how they keep up, and advice/tips/tricks along the way.\n\nThe Breaking into Cybersecurity Leadership Series is an additional series focused on cybersecurity leadership and hearing directly from different leaders in cybersecurity (high and low) on what it takes to be a successful leader. We focus on the skills and competencies associated with cybersecurity leadership and tips/tricks/advice from cybersecurity leaders.\n\n\nThis podcast relies on listener support, donate or become a member for early access to content:\nhttps://breaking-into-cybersecurity.captivate.fm/support\n\n#cybersecurity #breakingintocybersecurity  #informationsecurity  #AdvanceYourCyberCareer \n\nCheck out our books: \n\nDevelop Your Cybersecurity Career Path: How to Break into Cybersecurity at Any Level: https://amzn.to/3443AUI\nHack the Cybersecurity Interview: A complete interview preparation guide for jumpstarting your cybersecurity career https://www.amazon.com/dp/1801816638/",
+            "summary_detail": {
+                "type": "text/html",
+                "language": null,
+                "base": "https://www.youtube.com/feeds/videos.xml?channel_id=UCM3YAEDu6W7JmQc0kb-CNtw",
+                "value": "Sponsored by CPF Coaching LLC - http://cpf-coaching.com\n\nThe Breaking into Cybersecurity: It\u2019s a conversation about what they did before, why did they pivot into cyber, what the process was they went through Breaking Into Cybersecurity, how they keep up, and advice/tips/tricks along the way.\n\nThe Breaking into Cybersecurity Leadership Series is an additional series focused on cybersecurity leadership and hearing directly from different leaders in cybersecurity (high and low) on what it takes to be a successful leader. We focus on the skills and competencies associated with cybersecurity leadership and tips/tricks/advice from cybersecurity leaders.\n\n\nThis podcast relies on listener support, donate or become a member for early access to content:\nhttps://breaking-into-cybersecurity.captivate.fm/support\n\n#cybersecurity #breakingintocybersecurity  #informationsecurity  #AdvanceYourCyberCareer \n\nCheck out our books: \n\nDevelop Your Cybersecurity Career Path: How to Break into Cybersecurity at Any Level: https://amzn.to/3443AUI\nHack the Cybersecurity Interview: A complete interview preparation guide for jumpstarting your cybersecurity career https://www.amazon.com/dp/1801816638/"
+            },
+            "media_starrating": {
+                "count": "0",
+                "average": "0.00",
+                "min": "1",
+                "max": "5"
+            },
+            "media_statistics": {
+                "views": "26"
+            },
+            "media_community": ""
+        },
+        {
+            "id": "yt:video:s-HVP78UM4I",
+            "guidislink": true,
+            "link": "https://www.youtube.com/watch?v=s-HVP78UM4I",
+            "yt_videoid": "s-HVP78UM4I",
+            "yt_channelid": "UCM3YAEDu6W7JmQc0kb-CNtw",
+            "title": "The Power of Collaboration in the Age of AI - Philippe Humeau",
+            "title_detail": {
+                "type": "text/plain",
+                "language": null,
+                "base": "https://www.youtube.com/feeds/videos.xml?channel_id=UCM3YAEDu6W7JmQc0kb-CNtw",
+                "value": "The Power of Collaboration in the Age of AI - Philippe Humeau"
+            },
+            "links": [
+                {
+                    "rel": "alternate",
+                    "href": "https://www.youtube.com/watch?v=s-HVP78UM4I",
+                    "type": "text/html"
+                }
+            ],
+            "authors": [
+                {
+                    "name": "Breaking Into Cybersecurity",
+                    "href": "https://www.youtube.com/channel/UCM3YAEDu6W7JmQc0kb-CNtw"
+                }
+            ],
+            "author_detail": {
+                "name": "Breaking Into Cybersecurity",
+                "href": "https://www.youtube.com/channel/UCM3YAEDu6W7JmQc0kb-CNtw"
+            },
+            "href": "",
+            "author": "Breaking Into Cybersecurity",
+            "published": "2024-12-10T20:20:04+00:00",
+            "published_parsed": [
+                2024,
+                12,
+                10,
+                20,
+                20,
+                4,
+                1,
+                345,
+                0
+            ],
+            "updated": "2025-01-10T23:50:41+00:00",
+            "updated_parsed": [
+                2025,
+                1,
+                10,
+                23,
+                50,
+                41,
+                4,
+                10,
+                0
+            ],
+            "media_content": [
+                {
+                    "url": "https://www.youtube.com/v/s-HVP78UM4I?version=3",
+                    "type": "application/x-shockwave-flash",
+                    "width": "640",
+                    "height": "390"
+                }
+            ],
+            "media_thumbnail": [
+                {
+                    "url": "https://i4.ytimg.com/vi/s-HVP78UM4I/hqdefault.jpg",
+                    "width": "480",
+                    "height": "360"
+                }
+            ],
+            "summary": "Guests: Philippe Humeau\n\nIn this episode of Breaking Into Cybersecurity, host Philippe Humeau shares his journey from a childhood gamer in the 80s to a leading cybersecurity expert. Philippe dives into his early years of cracking games, his transition to professional IT and cybersecurity roles, and his experience in founding a company right after school. He also discusses the critical differences between Red Team and Blue Team roles, the evolving landscape of red team automation and AI, and the importance of collaboration in solving complex cybersecurity challenges. Tune in for valuable insights and practical advice for aspiring cybersecurity professionals.\n\n\nSponsored by CPF Coaching LLC - http://cpf-coaching.com\n\nThe Breaking into Cybersecurity: It\u2019s a conversation about what they did before, why did they pivot into cyber, what the process was they went through Breaking Into Cybersecurity, how they keep up, and advice/tips/tricks along the way.\n\nThe Breaking into Cybersecurity Leadership Series is an additional series focused on cybersecurity leadership and hearing directly from different leaders in cybersecurity (high and low) on what it takes to be a successful leader. We focus on the skills and competencies associated with cybersecurity leadership and tips/tricks/advice from cybersecurity leaders.\n\n\nThis podcast relies on listener support, donate or become a member for early access to content:\nhttps://breaking-into-cybersecurity.captivate.fm/support\n\n#cybersecurity #breakingintocybersecurity  #informationsecurity  #AdvanceYourCyberCareer \n\nCheck out our books: \n\nDevelop Your Cybersecurity Career Path: How to Break into Cybersecurity at Any Level: https://amzn.to/3443AUI\nHack the Cybersecurity Interview: A complete interview preparation guide for jumpstarting your cybersecurity career https://www.amazon.com/dp/1801816638/",
+            "summary_detail": {
+                "type": "text/html",
+                "language": null,
+                "base": "https://www.youtube.com/feeds/videos.xml?channel_id=UCM3YAEDu6W7JmQc0kb-CNtw",
+                "value": "Guests: Philippe Humeau\n\nIn this episode of Breaking Into Cybersecurity, host Philippe Humeau shares his journey from a childhood gamer in the 80s to a leading cybersecurity expert. Philippe dives into his early years of cracking games, his transition to professional IT and cybersecurity roles, and his experience in founding a company right after school. He also discusses the critical differences between Red Team and Blue Team roles, the evolving landscape of red team automation and AI, and the importance of collaboration in solving complex cybersecurity challenges. Tune in for valuable insights and practical advice for aspiring cybersecurity professionals.\n\n\nSponsored by CPF Coaching LLC - http://cpf-coaching.com\n\nThe Breaking into Cybersecurity: It\u2019s a conversation about what they did before, why did they pivot into cyber, what the process was they went through Breaking Into Cybersecurity, how they keep up, and advice/tips/tricks along the way.\n\nThe Breaking into Cybersecurity Leadership Series is an additional series focused on cybersecurity leadership and hearing directly from different leaders in cybersecurity (high and low) on what it takes to be a successful leader. We focus on the skills and competencies associated with cybersecurity leadership and tips/tricks/advice from cybersecurity leaders.\n\n\nThis podcast relies on listener support, donate or become a member for early access to content:\nhttps://breaking-into-cybersecurity.captivate.fm/support\n\n#cybersecurity #breakingintocybersecurity  #informationsecurity  #AdvanceYourCyberCareer \n\nCheck out our books: \n\nDevelop Your Cybersecurity Career Path: How to Break into Cybersecurity at Any Level: https://amzn.to/3443AUI\nHack the Cybersecurity Interview: A complete interview preparation guide for jumpstarting your cybersecurity career https://www.amazon.com/dp/1801816638/"
+            },
+            "media_starrating": {
+                "count": "0",
+                "average": "0.00",
+                "min": "1",
+                "max": "5"
+            },
+            "media_statistics": {
+                "views": "6"
+            },
+            "media_community": ""
+        },
+        {
+            "id": "yt:video:TdIW3IHRZig",
+            "guidislink": true,
+            "link": "https://www.youtube.com/watch?v=TdIW3IHRZig",
+            "yt_videoid": "TdIW3IHRZig",
+            "yt_channelid": "UCM3YAEDu6W7JmQc0kb-CNtw",
+            "title": "Highlight Reel of Breaking into Cybersecurity - Philippe Humeau",
+            "title_detail": {
+                "type": "text/plain",
+                "language": null,
+                "base": "https://www.youtube.com/feeds/videos.xml?channel_id=UCM3YAEDu6W7JmQc0kb-CNtw",
+                "value": "Highlight Reel of Breaking into Cybersecurity - Philippe Humeau"
+            },
+            "links": [
+                {
+                    "rel": "alternate",
+                    "href": "https://www.youtube.com/watch?v=TdIW3IHRZig",
+                    "type": "text/html"
+                }
+            ],
+            "authors": [
+                {
+                    "name": "Breaking Into Cybersecurity",
+                    "href": "https://www.youtube.com/channel/UCM3YAEDu6W7JmQc0kb-CNtw"
+                }
+            ],
+            "author_detail": {
+                "name": "Breaking Into Cybersecurity",
+                "href": "https://www.youtube.com/channel/UCM3YAEDu6W7JmQc0kb-CNtw"
+            },
+            "href": "",
+            "author": "Breaking Into Cybersecurity",
+            "published": "2024-12-10T20:19:13+00:00",
+            "published_parsed": [
+                2024,
+                12,
+                10,
+                20,
+                19,
+                13,
+                1,
+                345,
+                0
+            ],
+            "updated": "2025-01-10T14:12:01+00:00",
+            "updated_parsed": [
+                2025,
+                1,
+                10,
+                14,
+                12,
+                1,
+                4,
+                10,
+                0
+            ],
+            "media_content": [
+                {
+                    "url": "https://www.youtube.com/v/TdIW3IHRZig?version=3",
+                    "type": "application/x-shockwave-flash",
+                    "width": "640",
+                    "height": "390"
+                }
+            ],
+            "media_thumbnail": [
+                {
+                    "url": "https://i1.ytimg.com/vi/TdIW3IHRZig/hqdefault.jpg",
+                    "width": "480",
+                    "height": "360"
+                }
+            ],
+            "summary": "Guests: Philippe Humeau\n\nIn this episode of Breaking Into Cybersecurity, host Philippe Humeau shares his journey from a childhood gamer in the 80s to a leading cybersecurity expert. Philippe dives into his early years of cracking games, his transition to professional IT and cybersecurity roles, and his experience in founding a company right after school. He also discusses the critical differences between Red Team and Blue Team roles, the evolving landscape of red team automation and AI, and the importance of collaboration in solving complex cybersecurity challenges. Tune in for valuable insights and practical advice for aspiring cybersecurity professionals.\n\nSponsored by CPF Coaching LLC - http://cpf-coaching.com\n\nThe Breaking into Cybersecurity: It\u2019s a conversation about what they did before, why did they pivot into cyber, what the process was they went through Breaking Into Cybersecurity, how they keep up, and advice/tips/tricks along the way.\n\nThe Breaking into Cybersecurity Leadership Series is an additional series focused on cybersecurity leadership and hearing directly from different leaders in cybersecurity (high and low) on what it takes to be a successful leader. We focus on the skills and competencies associated with cybersecurity leadership and tips/tricks/advice from cybersecurity leaders.\n\n\nThis podcast relies on listener support, donate or become a member for early access to content:\nhttps://breaking-into-cybersecurity.captivate.fm/support\n\n#cybersecurity #breakingintocybersecurity  #informationsecurity  #AdvanceYourCyberCareer \n\nCheck out our books: \n\nDevelop Your Cybersecurity Career Path: How to Break into Cybersecurity at Any Level: https://amzn.to/3443AUI\nHack the Cybersecurity Interview: A complete interview preparation guide for jumpstarting your cybersecurity career https://www.amazon.com/dp/1801816638/",
+            "summary_detail": {
+                "type": "text/html",
+                "language": null,
+                "base": "https://www.youtube.com/feeds/videos.xml?channel_id=UCM3YAEDu6W7JmQc0kb-CNtw",
+                "value": "Guests: Philippe Humeau\n\nIn this episode of Breaking Into Cybersecurity, host Philippe Humeau shares his journey from a childhood gamer in the 80s to a leading cybersecurity expert. Philippe dives into his early years of cracking games, his transition to professional IT and cybersecurity roles, and his experience in founding a company right after school. He also discusses the critical differences between Red Team and Blue Team roles, the evolving landscape of red team automation and AI, and the importance of collaboration in solving complex cybersecurity challenges. Tune in for valuable insights and practical advice for aspiring cybersecurity professionals.\n\nSponsored by CPF Coaching LLC - http://cpf-coaching.com\n\nThe Breaking into Cybersecurity: It\u2019s a conversation about what they did before, why did they pivot into cyber, what the process was they went through Breaking Into Cybersecurity, how they keep up, and advice/tips/tricks along the way.\n\nThe Breaking into Cybersecurity Leadership Series is an additional series focused on cybersecurity leadership and hearing directly from different leaders in cybersecurity (high and low) on what it takes to be a successful leader. We focus on the skills and competencies associated with cybersecurity leadership and tips/tricks/advice from cybersecurity leaders.\n\n\nThis podcast relies on listener support, donate or become a member for early access to content:\nhttps://breaking-into-cybersecurity.captivate.fm/support\n\n#cybersecurity #breakingintocybersecurity  #informationsecurity  #AdvanceYourCyberCareer \n\nCheck out our books: \n\nDevelop Your Cybersecurity Career Path: How to Break into Cybersecurity at Any Level: https://amzn.to/3443AUI\nHack the Cybersecurity Interview: A complete interview preparation guide for jumpstarting your cybersecurity career https://www.amazon.com/dp/1801816638/"
+            },
+            "media_starrating": {
+                "count": "0",
+                "average": "0.00",
+                "min": "1",
+                "max": "5"
+            },
+            "media_statistics": {
+                "views": "3"
+            },
+            "media_community": ""
+        },
+        {
+            "id": "yt:video:gGZ7h6S_p3U",
+            "guidislink": true,
+            "link": "https://www.youtube.com/watch?v=gGZ7h6S_p3U",
+            "yt_videoid": "gGZ7h6S_p3U",
+            "yt_channelid": "UCM3YAEDu6W7JmQc0kb-CNtw",
+            "title": "Hacking a Hotel with a TV Remote (I didnt think that was possible) - Philippe Humeau",
+            "title_detail": {
+                "type": "text/plain",
+                "language": null,
+                "base": "https://www.youtube.com/feeds/videos.xml?channel_id=UCM3YAEDu6W7JmQc0kb-CNtw",
+                "value": "Hacking a Hotel with a TV Remote (I didnt think that was possible) - Philippe Humeau"
+            },
+            "links": [
+                {
+                    "rel": "alternate",
+                    "href": "https://www.youtube.com/watch?v=gGZ7h6S_p3U",
+                    "type": "text/html"
+                }
+            ],
+            "authors": [
+                {
+                    "name": "Breaking Into Cybersecurity",
+                    "href": "https://www.youtube.com/channel/UCM3YAEDu6W7JmQc0kb-CNtw"
+                }
+            ],
+            "author_detail": {
+                "name": "Breaking Into Cybersecurity",
+                "href": "https://www.youtube.com/channel/UCM3YAEDu6W7JmQc0kb-CNtw"
+            },
+            "href": "",
+            "author": "Breaking Into Cybersecurity",
+            "published": "2024-12-10T17:26:28+00:00",
+            "published_parsed": [
+                2024,
+                12,
+                10,
+                17,
+                26,
+                28,
+                1,
+                345,
+                0
+            ],
+            "updated": "2025-01-10T23:45:34+00:00",
+            "updated_parsed": [
+                2025,
+                1,
+                10,
+                23,
+                45,
+                34,
+                4,
+                10,
+                0
+            ],
+            "media_content": [
+                {
+                    "url": "https://www.youtube.com/v/gGZ7h6S_p3U?version=3",
+                    "type": "application/x-shockwave-flash",
+                    "width": "640",
+                    "height": "390"
+                }
+            ],
+            "media_thumbnail": [
+                {
+                    "url": "https://i4.ytimg.com/vi/gGZ7h6S_p3U/hqdefault.jpg",
+                    "width": "480",
+                    "height": "360"
+                }
+            ],
+            "summary": "Guests: Philippe Humeau\n\nIn this episode of Breaking Into Cybersecurity, host Philippe Humeau shares his journey from a childhood gamer in the 80s to a leading cybersecurity expert. Philippe dives into his early years of cracking games, his transition to professional IT and cybersecurity roles, and his experience in founding a company right after school. He also discusses the critical differences between Red Team and Blue Team roles, the evolving landscape of red team automation and AI, and the importance of collaboration in solving complex cybersecurity challenges. Tune in for valuable insights and practical advice for aspiring cybersecurity professionals.\n\n#breakingintocybersecurity \n\nSponsored by CPF Coaching LLC - http://cpf-coaching.com\n\nThe Breaking into Cybersecurity: It\u2019s a conversation about what they did before, why did they pivot into cyber, what the process was they went through Breaking Into Cybersecurity, how they keep up, and advice/tips/tricks along the way.\n\nThe Breaking into Cybersecurity Leadership Series is an additional series focused on cybersecurity leadership and hearing directly from different leaders in cybersecurity (high and low) on what it takes to be a successful leader. We focus on the skills and competencies associated with cybersecurity leadership and tips/tricks/advice from cybersecurity leaders.\n\n\nThis podcast relies on listener support, donate or become a member for early access to content:\nhttps://breaking-into-cybersecurity.captivate.fm/support\n\n#cybersecurity #breakingintocybersecurity  #informationsecurity  #AdvanceYourCyberCareer \n\nCheck out our books: \n\nDevelop Your Cybersecurity Career Path: How to Break into Cybersecurity at Any Level: https://amzn.to/3443AUI\nHack the Cybersecurity Interview: A complete interview preparation guide for jumpstarting your cybersecurity career https://www.amazon.com/dp/1801816638/",
+            "summary_detail": {
+                "type": "text/html",
+                "language": null,
+                "base": "https://www.youtube.com/feeds/videos.xml?channel_id=UCM3YAEDu6W7JmQc0kb-CNtw",
+                "value": "Guests: Philippe Humeau\n\nIn this episode of Breaking Into Cybersecurity, host Philippe Humeau shares his journey from a childhood gamer in the 80s to a leading cybersecurity expert. Philippe dives into his early years of cracking games, his transition to professional IT and cybersecurity roles, and his experience in founding a company right after school. He also discusses the critical differences between Red Team and Blue Team roles, the evolving landscape of red team automation and AI, and the importance of collaboration in solving complex cybersecurity challenges. Tune in for valuable insights and practical advice for aspiring cybersecurity professionals.\n\n#breakingintocybersecurity \n\nSponsored by CPF Coaching LLC - http://cpf-coaching.com\n\nThe Breaking into Cybersecurity: It\u2019s a conversation about what they did before, why did they pivot into cyber, what the process was they went through Breaking Into Cybersecurity, how they keep up, and advice/tips/tricks along the way.\n\nThe Breaking into Cybersecurity Leadership Series is an additional series focused on cybersecurity leadership and hearing directly from different leaders in cybersecurity (high and low) on what it takes to be a successful leader. We focus on the skills and competencies associated with cybersecurity leadership and tips/tricks/advice from cybersecurity leaders.\n\n\nThis podcast relies on listener support, donate or become a member for early access to content:\nhttps://breaking-into-cybersecurity.captivate.fm/support\n\n#cybersecurity #breakingintocybersecurity  #informationsecurity  #AdvanceYourCyberCareer \n\nCheck out our books: \n\nDevelop Your Cybersecurity Career Path: How to Break into Cybersecurity at Any Level: https://amzn.to/3443AUI\nHack the Cybersecurity Interview: A complete interview preparation guide for jumpstarting your cybersecurity career https://www.amazon.com/dp/1801816638/"
+            },
+            "media_starrating": {
+                "count": "1",
+                "average": "5.00",
+                "min": "1",
+                "max": "5"
+            },
+            "media_statistics": {
+                "views": "9"
+            },
+            "media_community": ""
+        }
+    ],
+    "feed": {
+        "links": [
+            {
+                "rel": "self",
+                "href": "http://www.youtube.com/feeds/videos.xml?channel_id=UCM3YAEDu6W7JmQc0kb-CNtw",
+                "type": "application/atom+xml"
+            },
+            {
+                "rel": "alternate",
+                "href": "https://www.youtube.com/channel/UCM3YAEDu6W7JmQc0kb-CNtw",
+                "type": "text/html"
+            }
+        ],
+        "id": "yt:channel:M3YAEDu6W7JmQc0kb-CNtw",
+        "guidislink": true,
+        "link": "https://www.youtube.com/channel/UCM3YAEDu6W7JmQc0kb-CNtw",
+        "yt_channelid": "M3YAEDu6W7JmQc0kb-CNtw",
+        "title": "Breaking Into Cybersecurity",
+        "title_detail": {
+            "type": "text/plain",
+            "language": null,
+            "base": "https://www.youtube.com/feeds/videos.xml?channel_id=UCM3YAEDu6W7JmQc0kb-CNtw",
+            "value": "Breaking Into Cybersecurity"
+        },
+        "authors": [
+            {
+                "name": "Breaking Into Cybersecurity",
+                "href": "https://www.youtube.com/channel/UCM3YAEDu6W7JmQc0kb-CNtw"
+            }
+        ],
+        "author_detail": {
+            "name": "Breaking Into Cybersecurity",
+            "href": "https://www.youtube.com/channel/UCM3YAEDu6W7JmQc0kb-CNtw"
+        },
+        "href": "https://www.youtube.com/channel/UCM3YAEDu6W7JmQc0kb-CNtw",
+        "author": "Breaking Into Cybersecurity",
+        "published": "2019-05-09T11:16:45+00:00",
+        "published_parsed": [
+            2019,
+            5,
+            9,
+            11,
+            16,
+            45,
+            3,
+            129,
+            0
+        ]
+    },
+    "headers": {
+        "content-encoding": "gzip",
+        "server": "YouTube RSS Feeds server",
+        "content-length": "3090",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "date": "Sun, 26 Jan 2025 21:07:41 GMT",
+        "expires": "Sun, 26 Jan 2025 21:22:41 GMT",
+        "cache-control": "public, max-age=900",
+        "content-type": "text/xml; charset=UTF-8",
+        "age": "553",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "connection": "close"
+    },
+    "href": "https://www.youtube.com/feeds/videos.xml?channel_id=UCM3YAEDu6W7JmQc0kb-CNtw",
+    "status": 200,
+    "encoding": "UTF-8",
+    "version": "atom10",
+    "namespaces": {
+        "yt": "http://www.youtube.com/xml/schemas/2015",
+        "media": "http://search.yahoo.com/mrss/",
+        "": "http://www.w3.org/2005/Atom"
+    }
+}
