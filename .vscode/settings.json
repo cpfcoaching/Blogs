@@ -1,0 +1,7 @@
+{
+    "python.testing.pytestArgs": [
+        "blog-repo"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}
