@@ -1,4 +1,4 @@
-# RSS Feeds
+# RSS Feeds of Content from Christophe Foulon
 
 ## Breaking Into Cybersecurity
 
@@ -17,8 +17,6 @@
 - [The Power of Collaboration in the Age of AI - Philippe Humeau](https://www.youtube.com/watch?v=s-HVP78UM4I)
 - [Highlight Reel of Breaking into Cybersecurity - Philippe Humeau](https://www.youtube.com/watch?v=TdIW3IHRZig)
 - [Hacking a Hotel with a TV Remote (I didnt think that was possible) - Philippe Humeau](https://www.youtube.com/watch?v=gGZ7h6S_p3U)
-
-## No Title
 
 
 ## blogs
