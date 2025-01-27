@@ -10,7 +10,7 @@ def fetch_feeds_from_directory(directory):
     return feeds
 
 def generate_markdown(feeds):
-    markdown_content = "# RSS Feeds\n\n"
+    markdown_content = "# RSS Feeds of various content from Christophe Foulon\n\n"
     for feed in feeds:
         feed_title = feed.get('feed', {}).get('title', 'No Title')
         markdown_content += f"## {feed_title}\n\n"
