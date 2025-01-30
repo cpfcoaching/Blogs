@@ -26,7 +26,7 @@ jobs:
         pip install -r requirements.txt
 
     - name: Run RSS ingestion script
-      run: python scripts/rss_ingest.py
+      run: python blog-repo/scripts/rss_ingest.py
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
