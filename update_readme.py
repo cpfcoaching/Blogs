@@ -33,17 +33,55 @@ def generate_markdown(feeds):
         logging.error(f"Error generating markdown: {e}")
         return ""
 
+def fetch_blog_posts(directory):
+    try:
+        blog_posts = []
+        for filename in os.listdir(directory):
+            if filename.endswith('.md'):
+                blog_posts.append(filename)
+        return blog_posts
+    except Exception as e:
+        logging.error(f"Error fetching blog posts from directory {directory}: {e}")
+        return []
+
+def generate_blog_posts_markdown(blog_posts, directory):
+    try:
+        markdown_content = "## Blog Posts\n\n"
+        for post in blog_posts:
+            post_title = post.replace('.md', '').replace('_', ' ').title()
+            post_link = os.path.join(directory, post)
+            markdown_content += f"- [{post_title}]({post_link})\n"
+        markdown_content += "\n"
+        return markdown_content
+    except Exception as e:
+        logging.error(f"Error generating blog posts markdown: {e}")
+        return ""
+
 def update_readme(markdown_content, readme_path='README.md'):
     try:
+        if os.path.exists(readme_path):
+            with open(readme_path, 'r', encoding='utf-8') as f:
+                existing_content = f.read()
+        else:
+            existing_content = "# RSS Feeds of various content from Christophe Foulon\n\n"
+
+        new_content = existing_content + markdown_content
+
         with open(readme_path, 'w', encoding='utf-8') as f:
-            f.write(markdown_content)
+            f.write(new_content)
         logging.info(f"Successfully updated {readme_path}")
     except Exception as e:
         logging.error(f"Error updating {readme_path}: {e}")
 
 if __name__ == "__main__":
     rss_feeds_directory = 'rss_feeds'
+    blog_posts_directory = 'blog_repo'
+
     feeds = fetch_feeds_from_directory(rss_feeds_directory)
     markdown_content = generate_markdown(feeds)
-    update_readme(markdown_content)
-    logging.info("README.md has been updated with the latest RSS feeds.")
+
+    blog_posts = fetch_blog_posts(blog_posts_directory)
+    blog_posts_markdown = generate_blog_posts_markdown(blog_posts, blog_posts_directory)
+
+    update_readme(markdown_content + blog_posts_markdown)
+    logging.info("README.md has been updated with the latest RSS feeds and blog posts.")
