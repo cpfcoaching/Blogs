@@ -1,14 +1,12 @@
-name: RSS Ingestion and Deployment
+name: RSS Ingest
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Runs every day at midnight
-  push:
-    branches:
-      - main
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
-  build:
+  update-readme:
     runs-on: ubuntu-latest
 
     steps:
@@ -25,12 +23,6 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-
-    - name: Run RSS Ingest script
-      run: python correct/path/to/rss_ingest.py-
-
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./rss_feeds
+    - name: Update README
+      run: |
+        python update_readme.py
