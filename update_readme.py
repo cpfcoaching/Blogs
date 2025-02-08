@@ -57,7 +57,7 @@ def generate_blog_posts_markdown(blog_posts, directory):
         logging.error(f"Error generating blog posts markdown: {e}")
         return ""
 
-def update_readme(markdown_content, readme_path='README.md'):
+def update_readme(rss_markdown_content, blog_posts_markdown_content, readme_path='README.md'):
     try:
         if os.path.exists(readme_path):
             with open(readme_path, 'r', encoding='utf-8') as f:
@@ -65,7 +65,7 @@ def update_readme(markdown_content, readme_path='README.md'):
         else:
             existing_content = "# RSS Feeds of various content from Christophe Foulon\n\n"
 
-        new_content = existing_content + markdown_content
+        new_content = existing_content + rss_markdown_content + blog_posts_markdown_content
 
         with open(readme_path, 'w', encoding='utf-8') as f:
             f.write(new_content)
@@ -78,10 +78,10 @@ if __name__ == "__main__":
     blog_posts_directory = 'blog_repo'
 
     feeds = fetch_feeds_from_directory(rss_feeds_directory)
-    markdown_content = generate_markdown(feeds)
+    rss_markdown_content = generate_markdown(feeds)
 
     blog_posts = fetch_blog_posts(blog_posts_directory)
-    blog_posts_markdown = generate_blog_posts_markdown(blog_posts, blog_posts_directory)
+    blog_posts_markdown_content = generate_blog_posts_markdown(blog_posts, blog_posts_directory)
 
-    update_readme(markdown_content + blog_posts_markdown)
+    update_readme(rss_markdown_content, blog_posts_markdown_content)
     logging.info("README.md has been updated with the latest RSS feeds and blog posts.")
