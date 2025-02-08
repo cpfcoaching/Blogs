@@ -44,9 +44,9 @@ def fetch_blog_posts(directory):
         logging.error(f"Error fetching blog posts from directory {directory}: {e}")
         return []
 
-def generate_blog_posts_markdown(blog_posts, directory):
+def generate_blog_posts_markdown(blog_posts, directory, section_title):
     try:
-        markdown_content = "## Blog Posts\n\n"
+        markdown_content = f"## {section_title}\n\n"
         for post in blog_posts:
             post_title = post.replace('.md', '').replace('_', ' ').title()
             post_link = os.path.join(directory, post)
@@ -57,7 +57,7 @@ def generate_blog_posts_markdown(blog_posts, directory):
         logging.error(f"Error generating blog posts markdown: {e}")
         return ""
 
-def update_readme(rss_markdown_content, blog_posts_markdown_content, readme_path='README.md'):
+def update_readme_and_index(rss_markdown_content, blog_posts_markdown_content, older_blogs_markdown_content, readme_path='README.md', index_path='index.html'):
     try:
         if os.path.exists(readme_path):
             with open(readme_path, 'r', encoding='utf-8') as f:
@@ -65,13 +65,20 @@ def update_readme(rss_markdown_content, blog_posts_markdown_content, readme_path
         else:
             existing_content = "# RSS Feeds of various content from Christophe Foulon\n\n"
 
-        new_content = existing_content + rss_markdown_content + blog_posts_markdown_content
+        new_content = existing_content + rss_markdown_content + blog_posts_markdown_content + older_blogs_markdown_content
 
         with open(readme_path, 'w', encoding='utf-8') as f:
             f.write(new_content)
         logging.info(f"Successfully updated {readme_path}")
+
+        # Update index.html with the same content
+        html_content = f"<html><body><pre>{new_content}</pre></body></html>"
+        with open(index_path, 'w', encoding='utf-8') as f:
+            f.write(html_content)
+        logging.info(f"Successfully updated {index_path}")
+
     except Exception as e:
-        logging.error(f"Error updating {readme_path}: {e}")
+        logging.error(f"Error updating {readme_path} or {index_path}: {e}")
 
 if __name__ == "__main__":
     rss_feeds_directory = 'rss_feeds'
@@ -81,7 +88,9 @@ if __name__ == "__main__":
     rss_markdown_content = generate_markdown(feeds)
 
     blog_posts = fetch_blog_posts(blog_posts_directory)
-    blog_posts_markdown_content = generate_blog_posts_markdown(blog_posts, blog_posts_directory)
+    blog_posts_markdown_content = generate_blog_posts_markdown(blog_posts, blog_posts_directory, "Blog Posts")
 
-    update_readme(rss_markdown_content, blog_posts_markdown_content)
-    logging.info("README.md has been updated with the latest RSS feeds and blog posts.")
+    older_blogs_markdown_content = generate_blog_posts_markdown(blog_posts, blog_posts_directory, "Older Blogs")
+
+    update_readme_and_index(rss_markdown_content, blog_posts_markdown_content, older_blogs_markdown_content)
+    logging.info("README.md and index.html have been updated with the latest RSS feeds and blog posts.")
