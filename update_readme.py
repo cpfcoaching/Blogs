@@ -20,13 +20,16 @@ def fetch_feeds_from_directory(directory):
 def generate_markdown(feeds):
     try:
         markdown_content = "# RSS Feeds of various content from Christophe Foulon\n\n"
+        seen_entries = set()
         for feed in feeds:
             feed_title = feed.get('feed', {}).get('title', 'No Title')
             markdown_content += f"## {feed_title}\n\n"
             for entry in feed.get('entries', []):
                 entry_title = entry.get('title', 'No Title')
                 entry_link = entry.get('link', '#')
-                markdown_content += f"- [{entry_title}]({entry_link})\n"
+                if entry_link not in seen_entries:
+                    markdown_content += f"- [{entry_title}]({entry_link})\n"
+                    seen_entries.add(entry_link)
             markdown_content += "\n"
         return markdown_content
     except Exception as e:
