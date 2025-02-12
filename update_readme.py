@@ -60,6 +60,11 @@ def generate_blog_posts_markdown(blog_posts, directory, section_title):
         logging.error(f"Error generating blog posts markdown: {e}")
         return ""
 
+def markdown_to_html(markdown_content):
+    html_content = markdown_content.replace("# ", "<h1>").replace("\n\n", "</h1><p>").replace("## ", "<h2>").replace("\n", "</p><p>").replace("- [", "<li><a href=\"").replace("](", "\">").replace(")", "</a></li>")
+    html_content = "<html><body>" + html_content + "</body></html>"
+    return html_content
+
 def update_readme_and_index(rss_markdown_content, blog_posts_markdown_content, older_blogs_markdown_content, readme_path='README.md', index_path='index.html'):
     try:
         if os.path.exists(readme_path):
@@ -75,7 +80,7 @@ def update_readme_and_index(rss_markdown_content, blog_posts_markdown_content, o
         logging.info(f"Successfully updated {readme_path}")
 
         # Update index.html with the same content
-        html_content = f"<html><body><pre>{new_content}</pre></body></html>"
+        html_content = markdown_to_html(new_content)
         with open(index_path, 'w', encoding='utf-8') as f:
             f.write(html_content)
         logging.info(f"Successfully updated {index_path}")
