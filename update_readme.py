@@ -1,6 +1,7 @@
 import os
 import json
 import logging
+import markdown
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -61,9 +62,7 @@ def generate_blog_posts_markdown(blog_posts, directory, section_title):
         return ""
 
 def markdown_to_html(markdown_content):
-    html_content = markdown_content.replace("# ", "<h1>").replace("\n\n", "</h1><p>").replace("## ", "<h2>").replace("\n", "</p><p>").replace("- [", "<li><a href=\"").replace("](", "\">").replace(")", "</a></li>")
-    html_content = "<html><body>" + html_content + "</body></html>"
-    return html_content
+    return markdown.markdown(markdown_content)
 
 def update_readme_and_index(rss_markdown_content, blog_posts_markdown_content, older_blogs_markdown_content, readme_path='README.md', index_path='index.html'):
     try:
@@ -91,6 +90,7 @@ def update_readme_and_index(rss_markdown_content, blog_posts_markdown_content, o
 if __name__ == "__main__":
     rss_feeds_directory = 'rss_feeds'
     blog_posts_directory = 'blog_repo'
+    older_blogs_directory = 'older_blog_repo'  # Assuming older blogs are in a different directory
 
     feeds = fetch_feeds_from_directory(rss_feeds_directory)
     rss_markdown_content = generate_markdown(feeds)
@@ -98,7 +98,8 @@ if __name__ == "__main__":
     blog_posts = fetch_blog_posts(blog_posts_directory)
     blog_posts_markdown_content = generate_blog_posts_markdown(blog_posts, blog_posts_directory, "Blog Posts")
 
-    older_blogs_markdown_content = generate_blog_posts_markdown(blog_posts, blog_posts_directory, "Older Blogs")
+    older_blogs = fetch_blog_posts(older_blogs_directory)  # Fetch older blogs from a different directory
+    older_blogs_markdown_content = generate_blog_posts_markdown(older_blogs, older_blogs_directory, "Older Blogs")
 
     update_readme_and_index(rss_markdown_content, blog_posts_markdown_content, older_blogs_markdown_content)
     logging.info("README.md and index.html have been updated with the latest RSS feeds and blog posts.")
