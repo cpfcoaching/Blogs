@@ -1,0 +1,67 @@
+# Site settings
+title: "Christophe Foulon's Blog"
+description: "RSS Feeds and Blog Posts"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://yourusername.github.io" # the base hostname & protocol for your site
+author: "Christophe Foulon"
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude these files and directories from the site build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Include these files and directories in the site build
+include:
+  - _pages
+
+# Permalinks
+permalink: pretty
+
+# Collections
+collections:
+  blog_posts:
+    output: true
+  older_blogs:
+    output: true
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Christophe Foulon"
+
+# Markdown settings
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    default_lang: ruby
+    guess_lang: true
+    line_numbers: false
+    wrap: false
+
+# Plugins settings
+jekyll-feed:
+  path: feed.xml
