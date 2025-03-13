@@ -17,4 +17,4 @@ jobs:
       - name: Check Feed Validity
         run: |
           npm install -g feed-validator
-          feed-validator https://cpfcoaching.com/feed.xml
+          feed-validator https://cpf-coaching.com/feed.xml
