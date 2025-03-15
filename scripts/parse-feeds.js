@@ -22,8 +22,9 @@ const parserOptions = {
   }
 };
 
+// Updated feed URL with the correct domain and path
 const feedUrls = [
-  'https://cpfcoaching.com/feed.xml'
+  'https://cpf-coaching.com/blogs/rss.xml'
 ];
 
 async function processFeed(url) {
@@ -52,11 +53,7 @@ async function processFeed(url) {
         const safeFilename = `${safeId}.md`;
         const filepath = path.join(process.cwd(), '_rss_posts', safeFilename);
 
-        const frontmatter = `---
-title: "${(item.title || 'Untitled').replace(/"/g, '\\"')}"
-date: ${pubDate.toISOString()}
-external_url: "${item.link || url}"
----\n\n${cleanContent}`;
+        const frontmatter = `---\ntitle: \"${(item.title || 'Untitled').replace(/\"/g, '\\\"')}\"\ndate: ${pubDate.toISOString()}\nexternal_url: \"${item.link || url}\"\n---\n\n${cleanContent}`;
         
         fs.writeFileSync(filepath, frontmatter);
         console.log(`Processed: ${item.title || 'Untitled'}`);
