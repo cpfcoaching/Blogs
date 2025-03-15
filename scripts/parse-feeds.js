@@ -4,73 +4,143 @@ import createDOMPurify from 'dompurify';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import fetch from 'node-fetch';
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
+// Configure constants
+const MAX_RETRIES = 3;
+const RETRY_DELAY = 1000;
+const RSS_POSTS_DIR = '_rss_posts';
+const FEED_CACHE_FILE = '.feed-cache.json';
 
+// Setup JSDOM and DOMPurify
 const window = new JSDOM('').window;
 const DOMPurify = createDOMPurify(window);
 
+// Enhanced parser options
 const parserOptions = {
   getExtraEntryFields: (feedType) => {
-    if (feedType === 'json') return ['external_url'];
-    if (feedType === 'atom') return ['summary'];
-    return [];
+    if (feedType === 'json') return ['external_url', 'author', 'category'];
+    if (feedType === 'atom') return ['summary', 'author', 'category'];
+    return ['author', 'category'];
   },
-  timeout: 30000, // 30 second timeout
+  timeout: 30000,
   headers: {
-    'User-Agent': 'Mozilla/5.0 (compatible; RSS-Reader/1.0)'
+    'User-Agent': 'GitHub-Pages-RSS-Reader/1.0'
   }
 };
 
-// Updated feed URL with the correct domain and path
-const feedUrls = [
-  'https://cpf-coaching.com/blogs/rss.xml'
-];
-
-async function processFeed(url) {
+// Cache management
+function loadCache() {
   try {
-    console.log(`Fetching feed: ${url}`);
+    return JSON.parse(fs.readFileSync(FEED_CACHE_FILE, 'utf8'));
+  } catch {
+    return {};
+  }
+}
+
+function saveCache(cache) {
+  fs.writeFileSync(FEED_CACHE_FILE, JSON.stringify(cache, null, 2));
+}
+
+// Enhanced fetch with retry and caching
+async function fetchWithRetry(url, cache) {
+  const lastFetch = cache[url]?.lastFetch;
+  const now = Date.now();
+  
+  // Only fetch if cache is older than 1 hour
+  if (lastFetch && (now - lastFetch < 3600000)) {
+    console.log(`Using cached version for ${url}`);
+    return { ok: true, cached: true, data: cache[url].data };
+  }
+
+  for (let i = 0; i < MAX_RETRIES; i++) {
+    try {
+      console.log(`Fetching ${url} (attempt ${i + 1}/${MAX_RETRIES})`);
+      const response = await fetch(url);
+      if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+      const data = await response.text();
+      
+      // Update cache
+      cache[url] = { lastFetch: now, data };
+      saveCache(cache);
+      
+      return { ok: true, cached: false, data };
+    } catch (error) {
+      console.warn(`Attempt ${i + 1} failed for ${url}:`, error.message);
+      if (i === MAX_RETRIES - 1) throw error;
+      await new Promise(resolve => setTimeout(resolve, RETRY_DELAY));
+    }
+  }
+}
+
+async function processFeed(url, cache) {
+  try {
+    const response = await fetchWithRetry(url, cache);
+    if (!response.ok) {
+      console.error(`Failed to fetch ${url}`);
+      return;
+    }
+
     const feed = await extract(url, parserOptions);
-    
-    if (!feed || !feed.items || !Array.isArray(feed.items)) {
+    if (!feed?.items?.length) {
       console.error(`No items found in feed: ${url}`);
       return;
     }
 
-    feed.items.forEach(item => {
+    // Ensure posts directory exists
+    const postsDir = path.join(process.cwd(), RSS_POSTS_DIR);
+    fs.mkdirSync(postsDir, { recursive: true });
+
+    // Process feed items
+    for (const item of feed.items) {
       try {
         const pubDate = new Date(item.pubDate || item.published || item.date || new Date());
-        const dirtyContent = item.content || item.description || '';
-        const cleanContent = DOMPurify.sanitize(dirtyContent, {
-          ALLOWED_TAGS: ['p', 'a', 'em', 'strong'],
-          ALLOWED_ATTR: ['href']
+        const cleanContent = DOMPurify.sanitize(item.content || item.description || '', {
+          ALLOWED_TAGS: ['p', 'a', 'em', 'strong', 'h1', 'h2', 'h3', 'ul', 'li', 'code', 'pre'],
+          ALLOWED_ATTR: ['href', 'class']
         });
 
         const safeId = Buffer.from(item.id || item.link || Date.now().toString())
           .toString('base64')
           .replace(/[/+=]/g, '')
           .slice(0, 32);
-        const safeFilename = `${safeId}.md`;
-        const filepath = path.join(process.cwd(), '_rss_posts', safeFilename);
+          
+        const frontmatter = {
+          title: item.title || 'Untitled',
+          date: pubDate.toISOString(),
+          external_url: item.link || url,
+          author: item.author || feed.title,
+          categories: item.categories || [],
+          feed_source: feed.title || url,
+          layout: 'post'
+        };
 
-        const frontmatter = `---\ntitle: \"${(item.title || 'Untitled').replace(/\"/g, '\\\"')}\"\ndate: ${pubDate.toISOString()}\nexternal_url: \"${item.link || url}\"\n---\n\n${cleanContent}`;
-        
-        fs.writeFileSync(filepath, frontmatter);
-        console.log(`Processed: ${item.title || 'Untitled'}`);
+        const content = `---\n${Object.entries(frontmatter)
+          .map(([k, v]) => `${k}: ${JSON.stringify(v)}`)
+          .join('\n')}\n---\n\n${cleanContent}`;
+
+        fs.writeFileSync(path.join(postsDir, `${safeId}.md`), content);
+        console.log(`✓ Processed: ${frontmatter.title}`);
       } catch (itemError) {
-        console.error(`Error processing item:`, itemError);
+        console.error(`Error processing item from ${url}:`, itemError);
       }
-    });
+    }
   } catch (error) {
-    console.error(`Error processing feed ${url}:`, error.message);
+    console.error(`Error processing feed ${url}:`, error);
   }
 }
 
+// Main execution
 async function processFeeds() {
+  const cache = loadCache();
+  const feedUrls = [
+    'https://cpf-coaching.com/blogs/rss.xml',
+    // Add more feed URLs here
+  ];
+
   try {
-    for (const url of feedUrls) {
-      await processFeed(url);
-    }
+    await Promise.all(feedUrls.map(url => processFeed(url, cache)));
+    console.log('All feeds processed successfully');
   } catch (error) {
     console.error('Fatal error:', error);
     process.exit(1);

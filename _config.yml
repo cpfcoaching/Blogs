@@ -35,6 +35,9 @@ collections:
     output: true
   older_blogs:
     output: true
+  rss_posts:
+    output: true
+    permalink: /feeds/:path/
 
 # Defaults
 defaults:
@@ -44,6 +47,11 @@ defaults:
     values:
       layout: "post"
       author: "Christophe Foulon"
+  - scope:
+      path: "_rss_posts"
+      type: "rss_posts"
+    values:
+      layout: "post"
 
 # Markdown settings
 kramdown:
@@ -65,3 +73,10 @@ kramdown:
 # Plugins settings
 jekyll-feed:
   path: feed.xml
+
+# RSS Feed Settings
+rss_posts_limit: 50
+show_excerpts: true
+feed:
+  path: feed.xml
+  posts_limit: 50
