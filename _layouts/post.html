@@ -1,22 +1,25 @@
 ---
 layout: default
 ---
-<article class="post">
+<article class="post h-entry">
   <header class="post-header">
-    <h1 class="post-title">
+    <h1 class="post-title p-name">
       {% if page.external_url %}
-        <a href="{{ page.external_url }}" target="_blank">{{ page.title }}</a>
+        <a href="{{ page.external_url }}" target="_blank" rel="noopener">{{ page.title }}</a>
       {% else %}
         {{ page.title }}
       {% endif %}
     </h1>
+    
     <p class="post-meta">
-      {{ page.date | date: "%Y-%m-%d" }} - {{ page.author }}
-      {% if page.categories.size > 0 %}
-        in 
-        {% for category in page.categories %}
-          <span class="category">{{ category }}</span>
-        {% endfor %}
+      <time datetime="{{ page.date | date_to_xmlschema }}">
+        {{ page.date | date: "%B %-d, %Y" }}
+      </time>
+      {% if page.author %}
+        • <span class="author">{{ page.author }}</span>
+      {% endif %}
+      {% if page.source %}
+        • <span class="source">{{ page.source }}</span>
       {% endif %}
     </p>
   </header>

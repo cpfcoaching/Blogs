@@ -1,8 +1,8 @@
 # Site settings
-title: "Christophe Foulon's Blog"
-description: "RSS Feeds and Blog Posts"
+title: "RSS Feed Collection"
+description: "Collection of RSS feed posts"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://yourusername.github.io" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
 author: "Christophe Foulon"
 
 # Build settings
@@ -27,7 +27,7 @@ include:
   - _pages
 
 # Permalinks
-permalink: pretty
+permalink: /:year/:month/:day/:title/
 
 # Collections
 collections:
@@ -37,7 +37,7 @@ collections:
     output: true
   rss_posts:
     output: true
-    permalink: /feeds/:path/
+    permalink: /posts/:title/
 
 # Defaults
 defaults:

@@ -87,6 +87,11 @@ async function processFeed(url, cache) {
     const postsDir = path.join(process.cwd(), RSS_POSTS_DIR);
     fs.mkdirSync(postsDir, { recursive: true });
 
+    // Clear existing posts
+    fs.readdirSync(postsDir).forEach(file => {
+      fs.unlinkSync(path.join(postsDir, file));
+    });
+
     for (const item of feed.items) {
       try {
         const pubDate = new Date(item.pubDate || item.published || item.date || new Date());
@@ -95,39 +100,37 @@ async function processFeed(url, cache) {
           ALLOWED_ATTR: ['href', 'class']
         });
 
-        const processedItem = {
-          title: item.title || 'Untitled',
-          date: pubDate,
-          url: item.link || url,
-          author: item.author || feed.title,
-          source: feed.title || url,
-          categories: item.categories || []
-        };
+        // Format the date for Jekyll filename
+        const dateStr = pubDate.toISOString().split('T')[0];
+        
+        // Create a URL-friendly title slug
+        const titleSlug = item.title
+          .toLowerCase()
+          .replace(/[^a-z0-9]+/g, '-')
+          .replace(/^-+|-+$/g, '');
 
-        // Store for README generation
-        allProcessedItems.push(processedItem);
-
-        // Generate Jekyll post
-        const safeId = Buffer.from(item.id || item.link || Date.now().toString())
-          .toString('base64')
-          .replace(/[/+=]/g, '')
-          .slice(0, 32);
+        // Create Jekyll-style filename
+        const filename = `${dateStr}-${titleSlug}.md`;
 
         const frontmatter = {
-          title: processedItem.title,
-          date: processedItem.date.toISOString(),
-          external_url: processedItem.url,
-          author: processedItem.author,
-          categories: processedItem.categories,
-          feed_source: processedItem.source,
-          layout: 'post'
+          layout: 'post',
+          title: item.title || 'Untitled',
+          date: pubDate.toISOString(),
+          external_url: item.link || url,
+          author: item.author || feed.title,
+          source: feed.title || url,
+          categories: item.categories || [],
+          published: true
         };
 
         const content = `---\n${Object.entries(frontmatter)
           .map(([k, v]) => `${k}: ${JSON.stringify(v)}`)
           .join('\n')}\n---\n\n${cleanContent}`;
 
-        fs.writeFileSync(path.join(postsDir, `${safeId}.md`), content);
+        fs.writeFileSync(path.join(postsDir, filename), content);
+        console.log(`✓ Generated post: ${filename}`);
+        
+        allProcessedItems.push(frontmatter);
       } catch (itemError) {
         console.error(`Error processing item from ${url}:`, itemError);
       }
@@ -144,7 +147,7 @@ function generateReadme() {
   const readmeContent = `# Recent Blog Posts\n\n${allProcessedItems
     .map(item => {
       const date = item.date.toISOString().split('T')[0];
-      return `* [${item.title}](${item.url}) - ${date} - ${item.author}`;
+      return `* [${item.title}](${item.external_url}) - ${date} - ${item.author}`;
     })
     .join('\n')}\n`;
 

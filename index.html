@@ -2,14 +2,22 @@
 ---
 layout: default
 ---
-<h1>Recent Blog Posts</h1>
+<div class="home">
+  <h1>Recent Blog Posts</h1>
 
-<ul class="post-list">
-  {% for post in site.rss_posts limit:50 %}
-    <li>
-      <a href="{{ post.external_url }}" target="_blank">{{ post.title }}</a>
-      - {{ post.date | date: "%Y-%m-%d" }}
-      - {{ post.author }}
-    </li>
-  {% endfor %}
-</ul>
+  <ul class="post-list">
+    {% assign sorted_posts = site.rss_posts | sort: 'date' | reverse %}
+    {% for post in sorted_posts %}
+      <li>
+        <h2>
+          <a href="{{ post.external_url }}" target="_blank" rel="noopener">
+            {{ post.title }}
+          </a>
+        </h2>
+        <span class="post-meta">
+          {{ post.date | date: "%B %-d, %Y" }} • {{ post.author }}
+        </span>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
