@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
       
       - name: Setup Node.js
         uses: actions/setup-node@v3
@@ -26,5 +28,5 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add _rss_posts/
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update RSS feeds" && git push)
+          git add _rss_posts/ README.md
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update RSS feeds and README" && git push)

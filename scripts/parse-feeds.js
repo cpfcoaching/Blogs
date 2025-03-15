@@ -6,15 +6,18 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import fetch from 'node-fetch';
 
-// Configure constants
 const MAX_RETRIES = 3;
 const RETRY_DELAY = 1000;
 const RSS_POSTS_DIR = '_rss_posts';
+const README_PATH = 'README.md';
 const FEED_CACHE_FILE = '.feed-cache.json';
 
 // Setup JSDOM and DOMPurify
 const window = new JSDOM('').window;
 const DOMPurify = createDOMPurify(window);
+
+// Track all processed items for README generation
+let allProcessedItems = [];
 
 // Enhanced parser options
 const parserOptions = {
@@ -76,22 +79,14 @@ async function fetchWithRetry(url, cache) {
 async function processFeed(url, cache) {
   try {
     const response = await fetchWithRetry(url, cache);
-    if (!response.ok) {
-      console.error(`Failed to fetch ${url}`);
-      return;
-    }
+    if (!response.ok) return;
 
     const feed = await extract(url, parserOptions);
-    if (!feed?.items?.length) {
-      console.error(`No items found in feed: ${url}`);
-      return;
-    }
+    if (!feed?.items?.length) return;
 
-    // Ensure posts directory exists
     const postsDir = path.join(process.cwd(), RSS_POSTS_DIR);
     fs.mkdirSync(postsDir, { recursive: true });
 
-    // Process feed items
     for (const item of feed.items) {
       try {
         const pubDate = new Date(item.pubDate || item.published || item.date || new Date());
@@ -100,18 +95,31 @@ async function processFeed(url, cache) {
           ALLOWED_ATTR: ['href', 'class']
         });
 
+        const processedItem = {
+          title: item.title || 'Untitled',
+          date: pubDate,
+          url: item.link || url,
+          author: item.author || feed.title,
+          source: feed.title || url,
+          categories: item.categories || []
+        };
+
+        // Store for README generation
+        allProcessedItems.push(processedItem);
+
+        // Generate Jekyll post
         const safeId = Buffer.from(item.id || item.link || Date.now().toString())
           .toString('base64')
           .replace(/[/+=]/g, '')
           .slice(0, 32);
-          
+
         const frontmatter = {
-          title: item.title || 'Untitled',
-          date: pubDate.toISOString(),
-          external_url: item.link || url,
-          author: item.author || feed.title,
-          categories: item.categories || [],
-          feed_source: feed.title || url,
+          title: processedItem.title,
+          date: processedItem.date.toISOString(),
+          external_url: processedItem.url,
+          author: processedItem.author,
+          categories: processedItem.categories,
+          feed_source: processedItem.source,
           layout: 'post'
         };
 
@@ -120,7 +128,6 @@ async function processFeed(url, cache) {
           .join('\n')}\n---\n\n${cleanContent}`;
 
         fs.writeFileSync(path.join(postsDir, `${safeId}.md`), content);
-        console.log(`✓ Processed: ${frontmatter.title}`);
       } catch (itemError) {
         console.error(`Error processing item from ${url}:`, itemError);
       }
@@ -128,6 +135,20 @@ async function processFeed(url, cache) {
   } catch (error) {
     console.error(`Error processing feed ${url}:`, error);
   }
+}
+
+function generateReadme() {
+  // Sort items by date descending
+  allProcessedItems.sort((a, b) => b.date - a.date);
+
+  const readmeContent = `# Recent Blog Posts\n\n${allProcessedItems
+    .map(item => {
+      const date = item.date.toISOString().split('T')[0];
+      return `* [${item.title}](${item.url}) - ${date} - ${item.author}`;
+    })
+    .join('\n')}\n`;
+
+  fs.writeFileSync(README_PATH, readmeContent);
 }
 
 // Main execution
@@ -139,8 +160,10 @@ async function processFeeds() {
   ];
 
   try {
+    allProcessedItems = []; // Reset for fresh run
     await Promise.all(feedUrls.map(url => processFeed(url, cache)));
-    console.log('All feeds processed successfully');
+    generateReadme();
+    console.log('All feeds processed and README updated');
   } catch (error) {
     console.error('Fatal error:', error);
     process.exit(1);

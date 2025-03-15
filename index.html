@@ -1,19 +1,15 @@
 <!-- filepath: /Users/MacAttack/GitHub/Blogs/index.html -->
 ---
 layout: default
-title: RSS Feeds and Blog Posts
 ---
+<h1>Recent Blog Posts</h1>
 
-<h1>RSS Feeds of various content from Christophe Foulon</h1>
-
-{% assign combined_posts = site.data.blog_posts | concat: site.data.older_blogs | sort: 'date' | reverse %}
-{% for post in combined_posts %}
-  <article>
-    <h2><a href="{{ post.link }}">{{ post.title }}</a></h2>
-    {% if post.excerpt %}
-      {{ post.excerpt }}
-    {% else %}
-      {{ post.content | truncatewords: 50 }}
-    {% endif %}
-  </article>
-{% endfor %}
+<ul class="post-list">
+  {% for post in site.rss_posts limit:50 %}
+    <li>
+      <a href="{{ post.external_url }}" target="_blank">{{ post.title }}</a>
+      - {{ post.date | date: "%Y-%m-%d" }}
+      - {{ post.author }}
+    </li>
+  {% endfor %}
+</ul>
