@@ -20,8 +20,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-          npm install @extractus/feed-extractor
-          npm install dompurify jsdom
+          npm init -y
+          npm install @extractus/feed-extractor@latest dompurify jsdom
 
       - name: Create output directory
         run: mkdir -p _rss_posts
