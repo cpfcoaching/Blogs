@@ -21,7 +21,7 @@ jobs:
       - name: Install dependencies
         run: |
           npm init -y
-          npm install @extractus/feed-extractor@latest dompurify jsdom
+          npm install @extractus/feed-extractor@latest dompurify jsdom node-fetch@3
 
       - name: Create output directory
         run: mkdir -p _rss_posts
