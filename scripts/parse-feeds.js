@@ -84,13 +84,12 @@ async function processFeed(url, cache) {
     const feed = await extract(url, parserOptions);
     if (!feed?.items?.length) return;
 
+    // Ensure directory exists
     const postsDir = path.join(process.cwd(), RSS_POSTS_DIR);
     fs.mkdirSync(postsDir, { recursive: true });
 
-    // Clear existing posts
-    fs.readdirSync(postsDir).forEach(file => {
-      fs.unlinkSync(path.join(postsDir, file));
-    });
+    // Add debug logging
+    console.log(`Processing ${feed.items.length} items from ${url}`);
 
     for (const item of feed.items) {
       try {
@@ -111,7 +110,9 @@ async function processFeed(url, cache) {
 
         // Create Jekyll-style filename
         const filename = `${dateStr}-${titleSlug}.md`;
+        const filepath = path.join(postsDir, filename);
 
+        // Generate frontmatter
         const frontmatter = {
           layout: 'post',
           title: item.title || 'Untitled',
@@ -127,8 +128,8 @@ async function processFeed(url, cache) {
           .map(([k, v]) => `${k}: ${JSON.stringify(v)}`)
           .join('\n')}\n---\n\n${cleanContent}`;
 
-        fs.writeFileSync(path.join(postsDir, filename), content);
-        console.log(`✓ Generated post: ${filename}`);
+        fs.writeFileSync(filepath, content);
+        console.log(`✓ Generated: ${filename}`);
         
         allProcessedItems.push(frontmatter);
       } catch (itemError) {
