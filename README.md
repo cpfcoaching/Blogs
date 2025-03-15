@@ -50,5 +50,3 @@
 - [Essential Cybersecurity Tips for Small Businesses in 2024](https://www.youtube.com/watch?v=D_JUPeY0CD8)
 - [Become a Leader in Cybersecurity: Essential Tips for Growth](https://www.youtube.com/watch?v=FuRMsryyZZk)
 
-
-Feel free to copy the code from this repo to make your own RSS Dir List.
