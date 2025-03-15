@@ -78,18 +78,21 @@ async function fetchWithRetry(url, cache) {
 
 async function processFeed(url, cache) {
   try {
-    const response = await fetchWithRetry(url, cache);
-    if (!response.ok) return;
+    console.log(`Processing feed: ${url}`);
+    const response = await fetch(url);
+    const text = await response.text();
+    
+    const feed = await extract(text, { url });
+    if (!feed?.items?.length) {
+      console.log(`No items found in feed: ${url}`);
+      return;
+    }
 
-    const feed = await extract(url, parserOptions);
-    if (!feed?.items?.length) return;
+    console.log(`Found ${feed.items.length} items in feed`);
 
     // Ensure directory exists
     const postsDir = path.join(process.cwd(), RSS_POSTS_DIR);
     fs.mkdirSync(postsDir, { recursive: true });
-
-    // Add debug logging
-    console.log(`Processing ${feed.items.length} items from ${url}`);
 
     for (const item of feed.items) {
       try {

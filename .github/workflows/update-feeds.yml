@@ -25,25 +25,32 @@ jobs:
         run: |
           npm ci
           
+      - name: Create posts directory
+        run: |
+          mkdir -p _rss_posts
+          
       - name: Update RSS feeds
         run: |
           node scripts/parse-feeds.js
           
-      - name: Check for changes
-        id: git-check
+      - name: Debug directory content
         run: |
-          git status --porcelain
-          echo "::set-output name=modified::$(if git status --porcelain | grep .; then echo "true"; else echo "false"; fi)"
+          echo "Current directory contents:"
+          ls -la
+          echo "RSS posts directory contents:"
+          ls -la _rss_posts/
+          
+      - name: Upload RSS posts artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: rss-posts
+          path: _rss_posts/
+          if-no-files-found: warn
           
       - name: Commit changes
-        if: steps.git-check.outputs.modified == 'true'
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add -A
-          git commit -m "Update RSS feeds and blog posts"
-          git push
-          
-      - name: No changes found
-        if: steps.git-check.outputs.modified == 'false'
-        run: echo "No changes to commit"
+          git commit -m "Update RSS feeds and blog posts" || echo "No changes to commit"
+          git push || echo "No changes to push"
